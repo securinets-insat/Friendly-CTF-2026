@@ -1,0 +1,27 @@
+name: "Banned in Leonida"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  Rockstar banned the words responsible for the leak. The leak did not get the memo.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9042
+
+flags:
+  - SecuriNets{r0ckst4r_b4nn3d_th3_w0rds_n0t_th3_l34k}
+
+tags:
+  - pyjail
+
+files:
+  - chall.py
+  - attachments/flag.txt
+
+version: "0.1"

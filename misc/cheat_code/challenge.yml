@@ -1,0 +1,27 @@
+name: "Cheat Code"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  Rockstar left the developer console in the release build. Quality control must have been watching the trailer.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9041
+
+flags:
+  - SecuriNets{ch34t_c0d3_4ct1v4t3d_d3v_c0ns0l3_0p3n}
+
+tags:
+  - pyjail
+
+files:
+  - chall.py
+  - attachments/flag.txt
+
+version: "0.1"

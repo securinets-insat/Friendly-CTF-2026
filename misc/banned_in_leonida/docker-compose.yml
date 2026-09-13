@@ -1,0 +1,17 @@
+version: '3'
+services:
+  banned_in_leonida:
+    build: .
+    ports:
+      - 9042:10001
+    read_only: true
+    cap_drop:
+      - all
+
+    restart: on-failure
+
+    deploy:
+        resources:
+            limits:
+              cpus: '0.2'
+              memory: 1000M

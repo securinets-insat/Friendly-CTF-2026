@@ -1,0 +1,25 @@
+name: "BEGGNERZZZ"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  Always hating on larpers but when it turns out to be one of them and gets to the point you got ragebaited for being a larper that’s not a beggnerz larper behavior
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9040
+
+flags:
+  - Securinets{Larping_for_a_word_and_gets_ragbaited_is_always_a_FAT_man_behavior}
+
+tags:
+  - LARP
+
+files: []
+
+version: "0.1"

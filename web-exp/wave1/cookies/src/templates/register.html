@@ -1,0 +1,21 @@
+{% extends "auth.html" %}
+{% set page_title = "Create account" %}
+{% set header_url = url_for('login') %}
+{% set header_label = "Sign in" %}
+{% set eyebrow = "Get started" %}
+{% set heading = "Create your account" %}
+{% set lede = "Set up your workspace access in just a moment." %}
+{% set submit_label = "Create account" %}
+{% block fields %}
+  <div class="field">
+    <label for="username">Username</label>
+    <input id="username" name="username" autocomplete="username" required autofocus>
+  </div>
+  <div class="field">
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" autocomplete="new-password" required>
+  </div>
+{% endblock %}
+{% block auth_footer %}
+  Already registered? <a href="{{ url_for('login') }}">Sign in</a>
+{% endblock %}

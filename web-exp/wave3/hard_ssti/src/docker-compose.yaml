@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: task6
+    ports:
+      - "5005:5005"
+    environment:
+      - FLAG=Securinets{1nter3sting_ssti_1n_3rror_7emplate}
+      - DB_PATH=/app/data/database.db
+      - UPLOAD_FOLDER=/app/data/uploads

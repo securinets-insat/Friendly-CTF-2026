@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Create account · Report you Problem{% endblock %}
+{% block content %}
+<section class="auth"><div class="card">
+  <h1>Create your account</h1><p class="lede">A simple way to keep every problem and update in one place.</p>
+  <form method="post">
+    <label for="username">Username</label><input id="username" name="username" autocomplete="username" required autofocus>
+    <label for="password">Password</label><input id="password" name="password" type="password" autocomplete="new-password" required>
+    <button class="button full" type="submit">Create account</button>
+  </form>
+  <p class="helper">Already have an account? <a href="/login">Sign in</a></p>
+</div></section>
+{% endblock %}

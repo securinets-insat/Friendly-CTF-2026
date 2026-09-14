@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create account · Noted</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <nav class="topbar">
+      <a class="brand" href="{{ url_for('login') }}">noted.</a>
+      <a class="muted" href="{{ url_for('login') }}">Log in</a>
+    </nav>
+
+    <section class="card stack">
+      <div>
+        <h1>Start noting</h1>
+        <p class="muted">Keep your ideas in one calm place.</p>
+      </div>
+      <form class="stack" method="post">
+        <label>
+          Username
+          <input name="username" required autofocus>
+        </label>
+        <label>
+          Password
+          <input name="password" type="password" required>
+        </label>
+        <button type="submit">Create account</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

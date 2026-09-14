@@ -1,0 +1,37 @@
+services:
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "5002:5002"
+    environment:
+      - ADMIN_PASSWD=sVrOq7JIcknS4utdAWTKIQ
+      - FLAG=Securinets{bl1nd_sql_inj3cti0n_n0t_7hat_h4rd}
+      - DB_HOST=db
+      - DB_USER=ctfuser
+      - DB_PASSWORD=ctfuserbsqli#
+      - DB_NAME=bsqli
+      - DB_PORT=3306
+
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: bsqlitask10#
+      MYSQL_DATABASE: bsqli
+      MYSQL_USER: ctfuser
+      MYSQL_PASSWORD: ctfuserbsqli#
+    ports:
+      - "3309:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pbsqlitask10#"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  db_data: 

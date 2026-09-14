@@ -1,0 +1,18 @@
+name: "baby X55"
+author: "L-BOH"
+category: web exploitation
+description: A simple XSS challenge to get you started. Can you steal what admin has?
+value: 200
+type: dynamic
+extra:
+  initial: 200
+  decay: 5
+  minimum: 100
+  
+connection_info: 
+
+flags:
+    - Securinets{w3lcome_t0_cr0ss_s1te_scr1p71ng}
+
+tags:
+    - webhook

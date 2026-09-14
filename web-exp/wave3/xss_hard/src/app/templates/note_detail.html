@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ note[1] }} · Noted</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <nav class="topbar">
+      <a class="brand" href="{{ url_for('notes', user_id=user_id) }}">← Notes</a>
+      <a class="muted" href="{{ url_for('logout') }}">Log out</a>
+    </nav>
+
+    <article class="card">
+      <h1>{{ note[1] }}</h1>
+      <div class="note-content">{{ note[2] }}</div>
+    </article>
+  </main>
+</body>
+</html>

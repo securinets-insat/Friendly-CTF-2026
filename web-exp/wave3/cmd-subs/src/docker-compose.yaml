@@ -1,0 +1,6 @@
+services:
+  cmd-subs:
+    build: .
+    container_name: cmd-subs
+    ports:
+      - "5013:5013"

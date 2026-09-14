@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>·</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --fg: #e8e8e8;
+    --dim: #4a4a4a;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Courier New', Consolas, monospace;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .container {
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--fg);
+    border-radius: 50%;
+    margin: 0 auto 2.5rem;
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.2; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.4); }
+  }
+
+  .phrase {
+    font-size: clamp(0.85rem, 2vw, 1.1rem);
+    letter-spacing: 0.15em;
+    text-transform: lowercase;
+    color: var(--dim);
+    opacity: 0;
+    animation: fade 2s ease forwards 0.5s;
+  }
+
+  .phrase span {
+    display: inline-block;
+    transition: color 0.4s ease;
+  }
+
+  .phrase:hover span {
+    color: var(--fg);
+  }
+
+  @keyframes fade {
+    to { opacity: 1; }
+  }
+
+  .mark {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    color: var(--dim);
+    opacity: 0;
+    animation: fade 2s ease forwards 1.6s;
+  }
+
+  ::selection {
+    background: var(--fg);
+    color: var(--bg);
+  }
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="dot"></div>
+    <p class="phrase" id="phrase"></p>
+  </div>
+
+  <div class="mark">— · —</div>
+
+<script>
+  const text = "nothing here, maybe look for another way";
+  const el = document.getElementById('phrase');
+  el.innerHTML = text
+    .split('')
+    .map(c => `<span>${c === ' ' ? '&nbsp;' : c}</span>`)
+    .join('');
+</script>
+
+</body>
+</html>

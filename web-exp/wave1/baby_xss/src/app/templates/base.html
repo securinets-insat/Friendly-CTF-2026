@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Report you Problem{% endblock %}</title>
+  <style>
+    :root { --ink:#18212f; --muted:#697386; --line:#e6e9ef; --paper:#fff; --canvas:#f7f8fa; --accent:#2563eb; --accent-dark:#1d4ed8; --danger:#b42318; --success:#027a48; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--canvas); font:15px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    .nav { height:68px; display:flex; align-items:center; justify-content:space-between; padding:0 max(24px, calc((100vw - 1120px)/2)); background:rgba(255,255,255,.94); border-bottom:1px solid var(--line); }
+    .brand { display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:-.03em; }
+    .brand-mark { width:29px; height:29px; display:grid; place-items:center; border-radius:8px; color:#fff; background:var(--accent); font-size:17px; font-weight:800; }
+    .nav-links { display:flex; align-items:center; gap:22px; color:var(--muted); font-size:14px; }
+    .nav-links a:hover { color:var(--ink); }
+    .container { width:min(1120px, calc(100% - 40px)); margin:0 auto; }
+    .auth { width:min(440px, calc(100% - 40px)); margin:80px auto; }
+    .card { background:var(--paper); border:1px solid var(--line); border-radius:14px; box-shadow:0 1px 2px rgba(16,24,40,.03); }
+    .auth .card { padding:34px; }
+    h1,h2,p { margin-top:0; } h1 { margin-bottom:8px; font-size:28px; letter-spacing:-.04em; line-height:1.2; } h2 { font-size:17px; letter-spacing:-.02em; }
+    .lede { color:var(--muted); margin-bottom:28px; }
+    label { display:block; margin:18px 0 7px; color:#344054; font-size:13px; font-weight:600; }
+    input, textarea { width:100%; padding:11px 12px; border:1px solid #d0d5dd; border-radius:8px; outline:none; background:#fff; color:var(--ink); font:inherit; transition:border-color .15s, box-shadow .15s; }
+    textarea { min-height:124px; resize:vertical; }
+    input:focus, textarea:focus { border-color:#84adff; box-shadow:0 0 0 3px #e8f0ff; }
+    .button { display:inline-flex; align-items:center; justify-content:center; min-height:40px; padding:0 15px; border:1px solid var(--accent); border-radius:8px; background:var(--accent); color:#fff; cursor:pointer; font:600 14px inherit; transition:background .15s, border-color .15s; }
+    .button:hover { background:var(--accent-dark); border-color:var(--accent-dark); }
+    .button.secondary { border-color:#d0d5dd; background:#fff; color:#344054; }
+    .button.secondary:hover { background:#f9fafb; border-color:#98a2b3; }
+    .button.small { min-height:34px; padding:0 11px; font-size:13px; }
+    .full { width:100%; margin-top:24px; }
+    .helper { margin:22px 0 0; color:var(--muted); text-align:center; font-size:14px; } .helper a { color:var(--accent); font-weight:600; }
+    .flash { margin:22px 0 -2px; padding:11px 13px; border:1px solid; border-radius:8px; font-size:14px; }
+    .flash.error { color:var(--danger); border-color:#fecdca; background:#fffbfa; }.flash.success { color:var(--success); border-color:#abefc6; background:#ecfdf3; }
+    .page-head { display:flex; align-items:end; justify-content:space-between; gap:20px; padding:46px 0 25px; }.page-head p { margin:0; color:var(--muted); }
+    .dashboard { display:grid; grid-template-columns:minmax(290px, .85fr) minmax(0, 1.5fr); gap:24px; padding-bottom:48px; }.panel { padding:24px; }.panel h2 { margin-bottom:3px; }.panel .sub { margin:0 0 20px; color:var(--muted); font-size:14px; }
+    .report-list { list-style:none; padding:0; margin:0; }.report-list li + li { border-top:1px solid var(--line); }.report-list a { display:flex; align-items:center; justify-content:space-between; gap:15px; padding:16px 0; }.report-list a:hover strong { color:var(--accent); }.report-list strong { display:block; font-size:15px; }.report-list span { flex:0 0 auto; color:#98a2b3; }.empty { padding:38px 8px; color:var(--muted); text-align:center; }.detail { width:min(760px, 100%); margin:0 auto; padding:46px 0; }.detail .card { padding:30px; }.detail-content { padding-top:22px; border-top:1px solid var(--line); color:#344054; white-space:pre-wrap; word-break:break-word; }
+    @media (max-width:720px) { .nav { padding:0 20px; }.nav-links { gap:14px; }.dashboard { grid-template-columns:1fr; }.page-head { align-items:start; flex-direction:column; padding-top:32px; }.auth { margin:48px auto; }.auth .card,.panel,.detail .card { padding:22px; } }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="{{ '/reports' if session.get('user_id') else '/login' }}"><span class="brand-mark">!</span><span>Report you Problem</span></a>
+    {% if session.get('user_id') %}<div class="nav-links"><a href="/reports">My reports</a><a href="/logout">Sign out</a></div>{% endif %}
+  </nav>
+  <main class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}{% for category, message in messages %}<div class="flash {{ category }}">{{ message }}</div>{% endfor %}{% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

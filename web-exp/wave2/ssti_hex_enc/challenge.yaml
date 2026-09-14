@@ -1,0 +1,15 @@
+name: "Bio"
+author: "L-BOH"
+category: web exploitation
+description: Bio can hold more than just words. flag at FLAG env variable
+value: 600
+type: dynamic
+extra:
+  initial: 600
+  decay: 5
+  minimum: 150
+  
+connection_info: 
+
+flags:
+    - Securinets{ssti_w1th_h3x_3ncod1ng_byp4ss}

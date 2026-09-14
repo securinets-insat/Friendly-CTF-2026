@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ page_title }} · Access Portal{% endblock %}
+{% block header_action %}<a class="header-link" href="{{ header_url }}">{{ header_label }}</a>{% endblock %}
+{% block main %}
+<main class="auth-page">
+  <p class="eyebrow">{{ eyebrow }}</p>
+  <h1>{{ heading }}</h1>
+  <p class="lede">{{ lede }}</p>
+  <form class="panel" method="post">
+    {% block fields %}{% endblock %}
+    <button class="button" type="submit">{{ submit_label }}</button>
+    <p class="form-foot">{% block auth_footer %}{% endblock %}</p>
+  </form>
+</main>
+{% endblock %}

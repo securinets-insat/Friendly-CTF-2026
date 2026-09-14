@@ -1,0 +1,33 @@
+name: note-app
+services:
+  app:
+    build: ./app
+    container_name: note-app
+    ports:
+      - "5014:5014"
+    environment:
+      - PORT=5014
+      - ADMIN_PASSWORD=changedinprod
+      - DB_PATH=/app/data/database.db
+      - BOT_URL=http://bot:3000/visit
+    networks:
+      note-app_network:
+        aliases:
+          - note-app
+    depends_on:
+      - bot
+
+  bot:
+    build: ./bot
+    container_name: bot-note-app
+    environment:
+      - PORT=3000
+      - FLAG=Securinets{s0me_fun_f0r_xss_f4ns}
+      - ADMIN_PASSWORD=changedinprod
+      - APP_URL=http://note-app:5014
+    networks:
+      - note-app_network
+
+networks:
+  note-app_network:
+    driver: bridge

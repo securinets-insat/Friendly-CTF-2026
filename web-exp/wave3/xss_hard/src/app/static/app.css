@@ -1,0 +1,33 @@
+:root {
+  color: #172033;
+  background: #f7f8fc;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; }
+a { color: inherit; }
+.shell { width: min(760px, calc(100% - 32px)); margin: 0 auto; padding: 56px 0; }
+.topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 36px; }
+.brand { font-size: 1.1rem; font-weight: 800; letter-spacing: -.03em; text-decoration: none; }
+.muted { color: #64748b; }
+.card { background: #fff; border: 1px solid #e6e9f0; border-radius: 16px; padding: 24px; box-shadow: 0 8px 30px rgb(15 23 42 / 4%); }
+.stack { display: grid; gap: 14px; }
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+h1, h2, p { margin-top: 0; }
+h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); letter-spacing: -.05em; margin-bottom: 8px; }
+h2 { font-size: 1rem; margin-bottom: 4px; }
+label { display: grid; gap: 7px; font-size: .9rem; font-weight: 650; }
+input, textarea, button { font: inherit; }
+input, textarea { width: 100%; border: 1px solid #d8dee9; border-radius: 9px; padding: 11px 12px; background: #fff; color: inherit; }
+textarea { min-height: 130px; resize: vertical; }
+button, .button { border: 0; border-radius: 9px; padding: 11px 15px; color: #fff; background: #172033; cursor: pointer; font-weight: 700; text-decoration: none; display: inline-flex; justify-content: center; }
+button:hover, .button:hover { filter: brightness(.94); }
+.button.secondary { color: #172033; background: #e9edf5; }
+.notes { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.notes a { display: flex; justify-content: space-between; align-items: center; border: 1px solid #e6e9f0; border-radius: 10px; padding: 13px 14px; text-decoration: none; }
+.notes a:hover { background: #f8fafc; }
+.flash { margin-bottom: 18px; padding: 12px 14px; border-radius: 9px; background: #fff4e5; color: #9a5412; }
+.color-picker { width: 44px; height: 38px; padding: 3px; cursor: pointer; }
+.note-content { white-space: pre-wrap; line-height: 1.65; }
+@media (max-width: 520px) { .shell { padding-top: 28px; } .topbar { margin-bottom: 28px; } }

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>admin — friendly-sqli</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111111;
+    --muted: #666666;
+    --line: #cccccc;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    width: 100%;
+    max-width: 640px;
+    padding: 48px 24px;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 36px 0 12px;
+  }
+  .history-scroll {
+    max-height: 280px;
+    overflow-y: auto;
+    border: 1px solid var(--line);
+  }
+  table.history {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  table.history th,
+  table.history td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  table.history thead th {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+  }
+  table.history tbody tr:last-child td {
+    border-bottom: none;
+  }
+  table.history .empty {
+    color: var(--muted);
+    padding: 8px 10px;
+  }
+  .tag {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 28px;
+  }
+  label {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin: 0 0 6px;
+  }
+  .flag {
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    word-break: break-all;
+  }
+  footer {
+    margin-top: 32px;
+    font-size: 12px;
+  }
+  footer a {
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>Welcome, admin</h1>
+    <label for="flag">flag</label>
+    <div class="flag" id="flag">{{ flag }}</div>
+
+    <h2>Recent searches</h2>
+    <div class="history-scroll">
+      <table class="history">
+        <thead>
+          <tr>
+            <th>time</th>
+            <th>ip</th>
+            <th>term</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in search_history %}
+          <tr>
+            <td>{{ row.ts }}</td>
+            <td>{{ row.ip }}</td>
+            <td>{{ row.term }}</td>
+          </tr>
+          {% else %}
+          <tr><td class="empty" colspan="3">no searches logged yet</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <footer><a href="/profile">&larr; back</a> · <a href="/logout">log out</a></footer>
+  </main>
+</body>
+</html>

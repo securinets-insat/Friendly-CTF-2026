@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Profile · Access Portal{% endblock %}
+{% block header_action %}
+  <a class="header-link" href="{{ url_for('logout') }}">Sign out</a>
+{% endblock %}
+{% block main %}
+  <main class="page profile">
+    <p class="eyebrow">Account overview</p>
+    <h1>Your workspace</h1>
+    <div class="profile-grid">
+      <section class="panel profile-card">
+        <span class="status">Account active</span>
+        <h2>Welcome to Access Portal</h2>
+        <p class="message">{{ msg }}</p>
+        <a class="logout" href="{{ url_for('logout') }}">Sign out of your account →</a>
+      </section>
+      <aside class="panel side-card">
+        <h3>Session security</h3>
+        <p>Your session is active and your account remains protected while you work.</p>
+      </aside>
+    </div>
+  </main>
+{% endblock %}

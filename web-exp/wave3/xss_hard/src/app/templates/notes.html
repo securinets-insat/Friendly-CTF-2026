@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your notes · Noted</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.6/purify.min.js"></script>
+  <script defer src="{{ url_for('static', filename='notes.js') }}"></script>
+</head>
+<body>
+  <main class="shell">
+    <nav class="topbar">
+      <a class="brand" href="{{ url_for('notes', user_id=user_id) }}">noted.</a>
+      <div class="row">
+        <a class="button secondary" href="{{ url_for('profile', user_id=user_id) }}">Profile</a>
+        <a class="muted" href="{{ url_for('logout') }}">Log out</a>
+      </div>
+    </nav>
+    {% with messages = get_flashed_messages(with_categories=true) %}{% for category, message in messages %}<div class="flash">{{ message }}</div>{% endfor %}{% endwith %}
+    <header><h1>Your notes</h1><p class="muted">A quiet place for the things worth remembering.</p></header>
+    <section class="card stack" aria-labelledby="random-note-heading">
+      <div><h2 id="random-note-heading">Need a prompt?</h2><p class="muted">Open one of your notes at random.</p></div>
+      <div class="row">
+        <button id="view-btn" type="button" data-note-ids='{{ note_ids | tojson }}' style="background-color: {{ color_input }}">View Random Note</button>
+        <label>Button color <input id="button-color" type="text" value="{{ color_input }}" placeholder="red" aria-label="Random-note button color" data-save-url="{{ url_for('save_button_color', user_id=user_id) }}"></label>
+        <button id="save-button-color" type="button">Save color</button>
+      </div>
+    </section>
+    <section class="card stack" style="margin-top: 18px;">
+      <h2>New note</h2>
+      <form class="stack" method="post">
+        <label>Title <input name="title" maxlength="140" required placeholder="A useful thought"></label>
+        <label>Note <textarea name="content" required placeholder="Write it down…"></textarea></label>
+        <button type="submit">Save note</button>
+      </form>
+    </section>
+    <section style="margin-top: 28px;"><h2>Saved notes</h2>
+      {% if notes %}<ul class="notes">{% for note in notes %}<li><a href="{{ url_for('note_detail', note_id=note[0]) }}"><span>{{ note[1] }}</span><span class="muted">Open →</span></a></li>{% endfor %}</ul>{% else %}<p class="muted">No notes yet. Your first one starts above.</p>{% endif %}
+    </section>
+  </main>
+</body>
+</html>

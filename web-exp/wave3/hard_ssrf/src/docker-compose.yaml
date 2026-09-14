@@ -1,0 +1,35 @@
+name: task8
+services:
+  haproxy:
+    build: ./haproxy
+    networks:
+      appnet:
+        ipv4_address: 10.100.0.10
+    ports:
+      - "5006:80"
+    depends_on:
+      - fetcher
+      - internal
+
+  fetcher:
+    build: ./fetcher
+    environment:
+      - PORT=3000
+    networks:
+      - appnet
+
+  internal:
+    build: ./internal
+    environment:
+      - PORT=3001
+      - FLAG=Securinets{d0cker_c0mpse_d3ta1ls_4r3_imp0rtant}
+    networks:
+      - appnet
+
+
+networks:
+  appnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.100.0.0/24

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign in · Number Game</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="{{ url_for('login') }}"><span class="mark">G</span>Number Game</a>
+    <a class="nav-link" href="{{ url_for('register') }}">Create account</a>
+  </header>
+  <main class="auth">
+    <p class="eyebrow">Player access</p>
+    <h1>Ready for a quick challenge?</h1>
+    <p class="lede">Sign in to play and unlock your reward.</p>
+    <form class="card form" method="post">
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" name="username" autocomplete="username" required autofocus>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <button type="submit">Sign in and play</button>
+      <p class="foot">Need an account? <a href="{{ url_for('register') }}">Register now</a></p>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+name: "baby SQLi"
+author: "L-BOH"
+category: web exploitation
+description: Do you really need password to login ?
+value: 200
+type: dynamic
+extra:
+  initial: 200
+  decay: 5
+  minimum: 100
+  
+connection_info: 
+
+flags:
+    - Securinets{sql_1njection_1s_4_seri0us_vuln3rabili7y}
+
+

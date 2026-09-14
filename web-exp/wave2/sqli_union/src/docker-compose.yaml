@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - FLAG=Securinets{uni0n_b4s3d_sql_inj3cti0n_4lways_funny}
+      - ADMIN_PASSWD=mofotrollop

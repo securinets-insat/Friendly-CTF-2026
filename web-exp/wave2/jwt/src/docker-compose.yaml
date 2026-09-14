@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    container_name: task12
+    ports:
+      - "5011:5011"
+    environment:
+      - FLAG=Securinets{n3ver_use_w3ak_jwt_secre7}
+      - DB_PATH=/app/data/database.db
+      - PORT=5011
+      - SECRET_KEY=gameking

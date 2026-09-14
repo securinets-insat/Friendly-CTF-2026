@@ -1,0 +1,31 @@
+name: task10
+services:
+  app:
+    build: ./app
+    ports:
+      - "5009:5009"
+    environment:
+      - PORT=5009
+      - ADMIN_PASSWORD=2b7f8a522ed75c9944b158d227028636007cd5fbb6d7ea87cd197f8a7759d7cb
+      - DB_PATH=/app/data/database.db
+      - BOT_URL=http://bot:3000/visit
+    networks:
+      task10_network:
+        aliases:
+          - report-app
+    depends_on:
+      - bot
+
+  bot:
+    build: ./bot
+    environment:
+      - PORT=3000
+      - FLAG=Securinets{w3lcome_t0_cr0ss_s1te_scr1p71ng}
+      - ADMIN_PASSWORD=2b7f8a522ed75c9944b158d227028636007cd5fbb6d7ea87cd197f8a7759d7cb
+      - APP_URL=http://report-app:5009
+    networks:
+      - task10_network
+
+networks:
+  task10_network:
+    driver: bridge

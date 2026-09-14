@@ -1,0 +1,15 @@
+name: "Vault"
+author: "L-BOH"
+category: web exploitation
+description: Success is stumbling from failure to failure with no loss of enthusiasm.
+value: 900
+type: dynamic
+extra:
+  initial: 900
+  decay: 5
+  minimum: 200
+  
+connection_info: 
+
+flags:
+    - Securinets{no7_4_fan_of_c0mm4nd_subs7itut1on}

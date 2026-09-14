@@ -1,0 +1,10 @@
+name: task9
+services:
+  web:
+    build: .
+    container_name: task9
+    ports:
+      - "5008:5008"
+    environment:
+      - PORT=5008
+      - DB_PATH=/app/data/library.db

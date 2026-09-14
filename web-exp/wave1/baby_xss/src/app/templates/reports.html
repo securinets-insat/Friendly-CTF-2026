@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Reports · Report you Problem{% endblock %}
+{% block content %}
+<header class="page-head"><div><h1>Your reports</h1><p>Describe an issue clearly and keep track of it here.</p></div><a class="button secondary small" href="/logout">Sign out</a></header>
+<div class="dashboard">
+  <section class="card panel"><h2>New report</h2><p class="sub">Give us enough context to help.</p>
+    <form method="post">
+      <label for="title">Title</label><input id="title" name="title" placeholder="A short summary" required>
+      <label for="content">What happened?</label><textarea id="content" name="content" placeholder="Tell us what you noticed, where it happened, and any useful details." required></textarea>
+      <button class="button full" type="submit">Submit report</button>
+    </form>
+  </section>
+  <section class="card panel"><h2>{% if session.get('role') == 'admin' %}All reports{% else %}Submitted reports{% endif %}</h2><p class="sub">Select a report to view its details.</p>
+    {% if reports %}<ul class="report-list">{% for report in reports %}<li><a href="/report/{{ report[0] }}"><strong>{{ report[1] }}</strong><span>View →</span></a></li>{% endfor %}</ul>{% else %}<div class="empty">No reports yet.<br>Submit the first one using the form.</div>{% endif %}
+  </section>
+</div>
+{% endblock %}

@@ -1,0 +1,10 @@
+name: task7
+services:
+  web:
+    build: .
+    container_name: task7
+    ports:
+      - "5007:5007"
+    environment:
+      - FLAG=Securinets{s3rver_s1de_requ3st_f0rg3ry!!!!}
+      - PORT=5007

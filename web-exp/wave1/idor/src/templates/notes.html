@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My notes · Notevault</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="{{ url_for('notes') }}"><span class="mark">N</span>Notevault</a>
+    <a class="link" href="{{ url_for('logout') }}">Sign out</a>
+  </header>
+  <main class="container notes-page">
+    <div class="top">
+      <div>
+        <p class="eyebrow">Your collection</p>
+        <h1>My notes</h1>
+      </div>
+      <p class="count">{{ notes|length }} note{{ '' if notes|length == 1 else 's' }}</p>
+    </div>
+    {% if notes %}
+      <section class="notes">
+        {% for note_id, note in notes %}
+          <a class="card note" href="{{ url_for('get_note', note_id=note_id) }}">
+            <span class="note-label">Note {{ loop.index }}</span>
+            <p class="note-text">{{ note|truncate(80) }}</p>
+            <span class="open">Open note →</span>
+          </a>
+        {% endfor %}
+      </section>
+    {% else %}
+      <div class="card empty">No notes have been saved yet.</div>
+    {% endif %}
+  </main>
+</body>
+</html>

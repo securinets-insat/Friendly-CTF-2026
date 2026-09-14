@@ -1,0 +1,18 @@
+name: "1dor"
+author: "L-BOH"
+category: web exploitation
+description: You don't have to own an object to access it. You may need automation here. 
+value: 300
+type: dynamic
+extra:
+  initial: 300
+  decay: 5
+  minimum: 100
+  
+connection_info: 
+
+flags:
+    - Securinets{1d0r_1s_4n_1mp0rt4nt_v3ct0r_0f_w3b_3xpl01t4t10n}
+
+tags:
+    - python

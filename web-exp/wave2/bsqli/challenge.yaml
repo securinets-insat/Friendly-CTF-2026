@@ -1,0 +1,15 @@
+name: "blind"
+author: "L-BOH"
+category: web exploitation
+description: Get the admin password from user table. 
+value: 600
+type: dynamic
+extra:
+  initial: 600
+  decay: 5
+  minimum: 150
+  
+connection_info: 
+
+flags:
+    - Securinets{bl1nd_sql_inj3cti0n_n0t_7hat_h4rd}

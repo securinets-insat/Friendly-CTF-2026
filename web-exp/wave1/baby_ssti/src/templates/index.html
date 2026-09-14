@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>friendly-sqli</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111111;
+    --muted: #666666;
+    --line: #cccccc;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    width: 100%;
+    max-width: 480px;
+    padding: 48px 24px;
+  }
+  .tag {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+  p {
+    color: var(--muted);
+    margin: 0 0 28px;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 0 0 28px;
+  }
+  a.button {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid var(--fg);
+    color: var(--fg);
+    text-decoration: none;
+  }
+  a.button:hover {
+    background: var(--fg);
+    color: var(--bg);
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>Let your bio be creative.</h1>
+    <p>Sometimes templates hold more than just text.</p>
+    <hr>
+    <a class="button" href="/login">Sign in</a>
+  </main>
+</body>
+</html>

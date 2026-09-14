@@ -1,0 +1,6 @@
+services:
+  cmd-inj:
+    build: .
+    container_name: cmd-inj
+    ports:
+      - "5016:5016"

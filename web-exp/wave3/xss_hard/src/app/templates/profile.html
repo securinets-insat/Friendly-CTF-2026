@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ username }} · Noted</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <nav class="topbar">
+      <a class="brand" href="{{ url_for('profile', user_id=user_id) }}">noted.</a>
+      <a class="muted" href="{{ url_for('logout') }}">Log out</a>
+    </nav>
+
+    <section class="card stack">
+      <div>
+        <h1>{{ username }}</h1>
+        <p class="muted">{{ bio | safe }}</p>
+      </div>
+      <form class="stack" action="{{ url_for('profile', user_id=user_id) }}" method="post">
+        <label>
+          Edit bio
+          <textarea name="bio" placeholder="Tell us a little about yourself…">{{ bio }}</textarea>
+        </label>
+        <button type="submit">Save bio</button>
+      </form>
+      {% if admin_msg %}
+        <div class="flash" role="status">{{ admin_msg }}</div>
+      {% endif %}
+      <div class="row">
+        <a class="button" href="{{ url_for('notes', user_id=user_id) }}">View notes</a>
+        <form action="{{ url_for('trigger_admin') }}" method="post">
+          <button class="button secondary" type="submit">Trigger admin</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Play · Number Game</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="{{ url_for('game') }}"><span class="mark">G</span>Number Game</a>
+    <a class="nav-link" href="{{ url_for('logout') }}">Sign out</a>
+  </header>
+  <main class="game">
+    <p class="eyebrow">Welcome, {{ username }}</p>
+    <h1>The number challenge</h1>
+    <section class="card game-card">
+      <h2>Make your guess</h2>
+      <p>Enter a number and see how your guess compares.</p>
+      <div class="rules">
+        <div class="rule"><strong>Your guess</strong>The number you choose</div>
+        <div class="rule"><strong>Jason's guess</strong>Your number, plus one</div>
+      </div>
+      {% if message %}
+        <p class="result">{{ message }}</p>
+      {% endif %}
+      {% if user_guess is defined %}
+        <p class="result">You guessed <strong>{{ user_guess }}</strong>. Jason guessed <strong>{{ computer_guess }}</strong>.</p>
+      {% endif %}
+      <form class="guess-form" method="post">
+        <input name="guess" type="number" step="any" placeholder="Enter a number" required autofocus>
+        <button type="submit">Submit guess</button>
+      </form>
+      <a class="logout" href="{{ url_for('logout') }}">End game session →</a>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in · Noted</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <nav class="topbar">
+      <a class="brand" href="{{ url_for('login') }}">noted.</a>
+      <a class="muted" href="{{ url_for('register') }}">Create account</a>
+    </nav>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% for category, message in messages %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+    {% endwith %}
+
+    <section class="card stack">
+      <div>
+        <h1>Welcome back</h1>
+        <p class="muted">Your notes are waiting.</p>
+      </div>
+      <form class="stack" method="post">
+        <label>
+          Username
+          <input name="username" required autofocus>
+        </label>
+        <label>
+          Password
+          <input name="password" type="password" required>
+        </label>
+        <button type="submit">Log in</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

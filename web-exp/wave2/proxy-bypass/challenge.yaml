@@ -1,0 +1,19 @@
+name: "Old is not always gold"
+author: "L-BOH"
+category: web exploitation
+description: Everyone wants what admin has, but can you bypass the restrictions and get it?
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 5
+  minimum: 150
+  
+connection_info: 
+
+flags:
+    - Securinets{3xplo1ting_0ld_ht7p_p4rser_inc0nsist3ncy}
+
+tags:
+    - nginx
+    - burpsuite

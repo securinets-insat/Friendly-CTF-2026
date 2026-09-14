@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>products — friendly-sqli</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111111;
+    --muted: #666666;
+    --line: #cccccc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px;
+  }
+  .tag {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+  nav {
+    margin: 0 0 28px;
+    font-size: 13px;
+  }
+  nav a {
+    color: var(--muted);
+    margin-right: 16px;
+  }
+  form.search {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 28px;
+  }
+  form.search input[type="text"] {
+    flex: 1;
+    padding: 10px 12px;
+    background: var(--bg);
+    color: var(--fg);
+    border: 1px solid var(--line);
+    font: inherit;
+  }
+  form.search button {
+    padding: 10px 16px;
+    background: var(--fg);
+    color: var(--bg);
+    border: 1px solid var(--fg);
+    font: inherit;
+    cursor: pointer;
+  }
+  ul.products {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.products li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  ul.products li:last-child {
+    border-bottom: none;
+  }
+  .name {
+    font-weight: 600;
+  }
+  .desc {
+    color: var(--muted);
+    font-size: 13px;
+    margin: 4px 0;
+  }
+  .price {
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>Products</h1>
+    <nav>
+      <a href="/profile">profile</a>
+      <a href="/logout">log out</a>
+    </nav>
+    <form class="search" method="get" action="/search">
+      <input type="text" name="q" placeholder="search products…">
+      <button type="submit">Search</button>
+    </form>
+    <ul class="products">
+      {% for product in products %}
+      <li>
+        <div class="name">{{ product[1] }}</div>
+        <div class="desc">{{ product[2] }}</div>
+        <div class="price">${{ '%.2f'|format(product[3]) }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </main>
+</body>
+</html>

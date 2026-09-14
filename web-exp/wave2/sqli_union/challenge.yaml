@@ -1,0 +1,15 @@
+name: "More than products"
+author: "L-BOH"
+category: web exploitation
+description: Is it true that There Is Power in a Union? Search what you looking for.
+value: 400
+type: dynamic
+extra:
+  initial: 400
+  decay: 5
+  minimum: 150
+  
+connection_info: 
+
+flags:
+    - Securinets{uni0n_b4s3d_sql_inj3cti0n_4lways_funny}

@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: task11
+    ports:
+      - "5010:5010"
+    environment:
+      - FLAG=Securinets{v3ry_e4sy_c00k13_m4n1pul4t10n}
+      - DB_PATH=/app/data/database.db
+      - PORT=5010

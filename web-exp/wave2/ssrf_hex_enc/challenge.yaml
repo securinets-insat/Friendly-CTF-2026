@@ -1,0 +1,15 @@
+name: "fetcher"
+author: "L-BOH"
+category: web exploitation
+description: Flag endpoint is restricted to internal network only. You only have to bypass the weak restrictions.
+value: 400
+type: dynamic
+extra:
+  initial: 400
+  decay: 5
+  minimum: 150
+  
+connection_info: 
+
+flags:
+    - Securinets{s3rver_s1de_requ3st_f0rg3ry!!!!}

@@ -1,0 +1,8 @@
+services:
+  robotts:
+    build: .
+    container_name: robots
+    ports:
+      - "5017:3000"
+    environment:
+      - FLAG=Securinets{hum4n_4r3_4lw4ys_sm4rt3r_th4n_r0b0ts}

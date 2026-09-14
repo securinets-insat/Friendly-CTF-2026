@@ -1,0 +1,15 @@
+name: "baby cmd inj"
+author: "L-BOH"
+category: web exploitation
+description:  Maybe i should never trust a user input 
+value: 200
+type: dynamic
+extra:
+  initial: 200
+  decay: 5
+  minimum: 100
+  
+connection_info: 
+
+flags:
+    - Securinets{n3ver_tru5t_us3r_1nput_wh3n_1t_c0m3s_t0_ex3cut1ng_c0mm4nds}

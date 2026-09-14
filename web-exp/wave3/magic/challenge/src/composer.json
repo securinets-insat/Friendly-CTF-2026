@@ -1,0 +1,8 @@
+{
+  "name": "securinets/magic-store",
+  "require": {
+    "php": ">=8.2",
+    "ext-mongodb": "^2.5",
+    "mongodb/mongodb": "^2.1"
+  }
+}

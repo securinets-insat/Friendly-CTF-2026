@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{{ report[1] }} · Report you Problem{% endblock %}
+{% block content %}
+<section class="detail"><a class="button secondary small" href="/reports">← Back to reports</a>
+  <article class="card" style="margin-top:18px"><h1>{{ report[1] }}</h1><p class="lede">Report #{{ report[0] }}</p><div class="detail-content">{{ report[2] | safe }}</div>
+  {% if session.get('role') != 'admin' %}<form method="post" action="/report-to-admin" style="margin-top:26px"><input type="hidden" name="report_id" value="{{ report[0] }}"><button class="button" type="submit">Send to admin for review</button></form>{% endif %}
+  </article>
+</section>
+{% endblock %}

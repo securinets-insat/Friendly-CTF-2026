@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLAG=Securinets{sql_1njection_1s_4_seri0us_vuln3rabili7y}

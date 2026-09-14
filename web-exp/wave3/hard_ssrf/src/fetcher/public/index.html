@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple, secure URL fetcher." />
+    <title>Relay — URL Fetcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="/" aria-label="Relay home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>relay</a>
+        <span class="status"><span></span> Service online</span>
+      </nav>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">URL FETCHER</p>
+        <h1 id="page-title">Fetch what matters.</h1>
+        <p class="intro">Paste a public URL to retrieve and inspect its response.</p>
+        <form id="fetch-form" class="fetch-form" novalidate>
+          <label class="sr-only" for="url">Public URL</label>
+          <div class="input-wrap">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 13a5 5 0 0 0 7.07.07l2-2a5 5 0 0 0-7.07-7.07l-1.15 1.15" /><path d="M14 11a5 5 0 0 0-7.07-.07l-2 2A5 5 0 0 0 12 20l1.15-1.15" /></svg>
+            <input id="url" name="url" type="url" inputmode="url" placeholder="https://example.com" autocomplete="url" required />
+          </div>
+          <button type="submit" id="submit-button"><span>Fetch URL</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg></button>
+        </form>
+        <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+      </section>
+      <section id="result" class="result" aria-labelledby="result-title" hidden>
+        <div class="result-head"><div><p class="eyebrow">RESPONSE</p><h2 id="result-title">Fetched content</h2></div><button id="copy-button" class="copy-button" type="button">Copy</button></div>
+        <pre id="result-content" tabindex="0"></pre>
+      </section>
+      <footer><span>Relay / 2026</span><span>Public resources only</span></footer>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>

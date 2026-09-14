@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sign in — friendly-sqli</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111111;
+    --muted: #666666;
+    --line: #cccccc;
+    --error: #b3261e;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    width: 100%;
+    max-width: 360px;
+    padding: 48px 24px;
+  }
+  .tag {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 28px;
+  }
+  label {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin: 0 0 6px;
+  }
+  .field {
+    margin: 0 0 18px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    background: var(--bg);
+    color: var(--fg);
+    border: 1px solid var(--line);
+    font: inherit;
+  }
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: var(--fg);
+  }
+  button {
+    width: 100%;
+    padding: 11px 18px;
+    background: var(--fg);
+    color: var(--bg);
+    border: 1px solid var(--fg);
+    font: inherit;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  button:hover {
+    background: var(--bg);
+    color: var(--fg);
+  }
+  #error {
+    display: none;
+    font-size: 13px;
+    color: var(--error);
+    margin: -8px 0 18px;
+  }
+  a {
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 32px;
+    font-size: 12px;
+  }
+  footer a {
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>Sign in</h1>
+    <form id="login-form" method="post" action="/login">
+      <div class="field">
+        <label for="username">username</label>
+        <input id="username" name="username" type="text" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label for="password">password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <p id="error">Invalid credentials</p>
+      <button type="submit">Continue</button>
+    </form>
+    <footer>no account? <a href="/register">register</a> · <a href="/products">&larr; back</a></footer>
+  </main>
+  <script>
+    const form = document.getElementById('login-form');
+    const errorEl = document.getElementById('error');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errorEl.style.display = 'none';
+      const res = await fetch('/login', {
+        method: 'POST',
+        body: new URLSearchParams(new FormData(form)),
+      });
+      if (res.redirected) {
+        window.location.href = res.url;
+        return;
+      }
+      if (res.ok) {
+        window.location.href = '/profile';
+        return;
+      }
+      errorEl.style.display = 'block';
+    });
+  </script>
+</body>
+</html>

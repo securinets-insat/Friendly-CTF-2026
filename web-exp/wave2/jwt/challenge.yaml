@@ -1,0 +1,19 @@
+name: "w3ak "
+author: "L-BOH"
+category: web exploitation
+description: Can you beat Jason ? He's not strong as you think.
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 5
+  minimum: 150
+  
+connection_info: 
+
+flags:
+    - Securinets{n3ver_use_w3ak_jwt_secre7}
+
+tags:
+    - hashcat
+    - johntheripper

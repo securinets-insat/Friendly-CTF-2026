@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>register — friendly-ssti</title>
+<style>
+  :root { --bg: #ffffff; --fg: #111111; --muted: #666666; --line: #cccccc; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--bg); color: var(--fg); font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace; font-size: 15px; line-height: 1.6; display: flex; align-items: center; justify-content: center; }
+  main { width: 100%; max-width: 360px; padding: 48px 24px; }
+  .tag { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 28px; }
+  label { display: block; font-size: 12px; color: var(--muted); margin: 0 0 6px; }
+  .field { margin: 0 0 18px; }
+  input { width: 100%; padding: 10px 12px; background: var(--bg); color: var(--fg); border: 1px solid var(--line); font: inherit; }
+  input:focus { outline: none; border-color: var(--fg); }
+  button { width: 100%; padding: 11px 18px; background: var(--fg); color: var(--bg); border: 1px solid var(--fg); font: inherit; cursor: pointer; margin-top: 8px; }
+  button:hover { background: var(--bg); color: var(--fg); }
+  footer { margin-top: 32px; font-size: 12px; } footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>Create account</h1>
+    <form method="post" action="/register">
+      <div class="field"><label for="username">username</label><input id="username" name="username" type="text" autocomplete="username" required></div>
+      <div class="field"><label for="password">password</label><input id="password" name="password" type="password" autocomplete="new-password" required></div>
+      <button type="submit">Register</button>
+    </form>
+    <footer>already have an account? <a href="/login">sign in</a></footer>
+  </main>
+</body>
+</html>

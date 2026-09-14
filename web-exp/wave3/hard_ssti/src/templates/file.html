@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ original_name }} — friendly-ssti</title>
+<style>
+  :root { --bg: #ffffff; --fg: #111111; --muted: #666666; --line: #cccccc; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body { background: var(--bg); color: var(--fg); font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace; font-size: 15px; line-height: 1.6; display: flex; justify-content: center; }
+  main { width: 100%; max-width: 640px; padding: 48px 24px; }
+  .tag, label { display: block; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 28px; overflow-wrap: anywhere; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0 0 28px; padding: 14px 16px; border: 1px solid var(--line); font: inherit; }
+  textarea { width: 100%; min-height: 120px; padding: 10px 12px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); font: inherit; resize: vertical; }
+  textarea:focus { outline: none; border-color: var(--fg); }
+  button { display: inline-block; padding: 10px 18px; border: 1px solid var(--fg); background: var(--fg); color: var(--bg); font: inherit; cursor: pointer; margin-top: 12px; }
+  button:hover { background: var(--bg); color: var(--fg); }
+  footer { margin-top: 32px; font-size: 12px; } footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>{{ original_name }}</h1>
+    <label>file contents</label>
+    <pre>{{ file_content }}</pre>
+    <form method="post">
+      <label for="content">append text</label>
+      <textarea id="content" name="content" placeholder="Write text to append to this file."></textarea>
+      <button type="submit">Append</button>
+    </form>
+    <footer><a href="/profile">&larr; all files</a> · <a href="/logout">log out</a></footer>
+  </main>
+</body>
+</html>

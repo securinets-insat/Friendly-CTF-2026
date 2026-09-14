@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Note · Notevault</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="{{ url_for('notes') }}"><span class="mark">N</span>Notevault</a>
+    <a class="link" href="{{ url_for('logout') }}">Sign out</a>
+  </header>
+  <main class="container detail">
+    <a class="back" href="{{ url_for('notes') }}">← Back to notes</a>
+    <article class="card detail-card">
+      <p class="eyebrow">Note detail</p>
+      <h1>A saved note</h1>
+      <p class="note-content">{{ note }}</p>
+    </article>
+  </main>
+</body>
+</html>

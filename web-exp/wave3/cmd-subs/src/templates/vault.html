@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Network Observatory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #d5e7da;
+      --muted: #617568;
+      --green: #53df7e;
+      --green-dim: #278848;
+      --panel: rgba(3, 8, 5, .82);
+      --line: rgba(80, 196, 109, .13);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      overflow-x: hidden;
+      color: var(--ink);
+      background: #020403;
+      font-family: "Share Tech Mono", "SFMono-Regular", Consolas, monospace;
+    }
+
+    .backdrop,
+    .backdrop::before,
+    .backdrop::after {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .backdrop {
+      background:
+        radial-gradient(ellipse at 13% 11%, rgba(22, 117, 50, .09), transparent 22rem),
+        radial-gradient(ellipse at 90% 88%, rgba(15, 69, 33, .08), transparent 26rem),
+        radial-gradient(ellipse at 50% 120%, rgba(0, 0, 0, .7), transparent 40rem),
+        #020403;
+      z-index: -2;
+    }
+
+    .backdrop::before {
+      content: "";
+      opacity: .12;
+      background-image: linear-gradient(rgba(90, 255, 143, .045) 1px, transparent 1px), linear-gradient(90deg, rgba(90, 255, 143, .04) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: radial-gradient(ellipse at 50% 0%, black, transparent 68%);
+    }
+
+    .backdrop::after {
+      content: "";
+      opacity: .07;
+      background: repeating-linear-gradient(to bottom, transparent 0, transparent 3px, #9dffbc 4px);
+      mix-blend-mode: soft-light;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 32px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .brand { color: var(--green); font-family: "Space Mono", monospace; font-weight: 700; }
+    .brand span { color: var(--muted); font-weight: 400; }
+    .status { display: flex; align-items: center; gap: 9px; }
+    .status i { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 13px var(--green); }
+
+    .intro { max-width: 720px; margin: 9vh 0 52px; }
+    .eyebrow { margin: 0 0 16px; color: var(--green); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { max-width: 680px; margin: 0; font-family: "Space Mono", monospace; font-size: clamp(31px, 5vw, 61px); font-weight: 400; letter-spacing: -.09em; line-height: 1.08; }
+    h1 em { color: var(--green); font-style: normal; text-shadow: 0 0 24px rgba(84, 242, 138, .18); }
+    .lede { max-width: 570px; margin: 24px 0 0; color: var(--muted); font-family: "Share Tech Mono", monospace; font-size: 16px; line-height: 1.55; }
+
+    .terminal {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: linear-gradient(130deg, rgba(6, 14, 9, .97), rgba(1, 4, 2, .98));
+      box-shadow: 0 28px 100px rgba(0, 0, 0, .72), inset 0 1px rgba(226, 255, 233, .025);
+    }
+
+    .terminal::before {
+      content: "";
+      position: absolute;
+      width: 280px;
+      height: 220px;
+      right: -75px;
+      top: -100px;
+      border-radius: 50%;
+      background: #38f878;
+      filter: blur(120px);
+      opacity: .055;
+      pointer-events: none;
+    }
+
+    .terminal-bar { display: flex; align-items: center; height: 48px; padding: 0 18px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+    .lights { display: flex; gap: 7px; margin-right: 14px; }
+    .lights b { display: block; width: 8px; height: 8px; border-radius: 50%; background: #31513b; }
+    .lights b:first-child { background: #e2b45d; }
+    .terminal-title { letter-spacing: .06em; }
+    .terminal-title span { margin-left: 8px; color: #587161; }
+
+    .terminal-body { min-height: 294px; padding: 27px 30px 30px; }
+    .terminal-label { margin: 0 0 13px; color: #506757; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .terminal-label strong { color: var(--green); font-weight: 500; }
+
+    form { display: flex; align-items: center; border-bottom: 1px solid rgba(103, 230, 139, .32); transition: border-color .2s ease; }
+    form:focus-within { border-color: var(--green); box-shadow: 0 1px 0 var(--green); }
+    .prompt { flex: none; padding-right: 10px; color: var(--green); text-shadow: 0 0 14px rgba(84, 242, 138, .6); }
+    input { width: 100%; min-width: 0; padding: 7px 0 10px; border: 0; outline: 0; color: var(--ink); background: transparent; font: inherit; font-size: 15px; caret-color: var(--green); }
+    input::placeholder { color: #5d7766; opacity: 1; }
+    button { flex: none; margin-left: 16px; padding: 8px 10px; border: 0; color: #071009; background: var(--green); border-radius: 4px; font: 700 10px inherit; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; transition: transform .2s ease, background .2s ease; }
+    button:hover { background: #a6ffc0; transform: translateY(-1px); }
+
+    .output { margin-top: 29px; color: #7fc191; font-size: 14px; line-height: 1.6; white-space: pre-wrap; }
+    .output:empty { display: none; }
+    .output .prefix { color: var(--green); }
+    .idle { margin-top: 29px; color: #435a4a; font-size: 13px; }
+    .idle span { display: inline-block; width: 8px; height: 14px; margin-left: 5px; vertical-align: -2px; background: var(--green); box-shadow: 0 0 10px var(--green); animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .notes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 20px; border: 1px solid rgba(103, 230, 139, .11); border-radius: 9px; background: rgba(10, 22, 14, .28); }
+    .note { padding: 16px 18px; color: #6f8b78; font-size: 10px; line-height: 1.5; letter-spacing: .04em; }
+    .note + .note { border-left: 1px solid rgba(103, 230, 139, .11); }
+    .note b { display: block; margin-bottom: 5px; color: var(--green-dim); font-size: 9px; font-weight: 500; letter-spacing: .13em; text-transform: uppercase; }
+
+    footer { display: flex; justify-content: space-between; margin-top: 32px; color: #496352; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+
+    @media (max-width: 620px) {
+      .page { width: min(100% - 30px, 1120px); padding-top: 22px; }
+      .topbar { padding-bottom: 20px; }
+      .topbar .status { font-size: 0; }
+      .intro { margin-top: 64px; margin-bottom: 38px; }
+      .terminal-body { min-height: 276px; padding: 22px 18px; }
+      button { font-size: 0; width: 29px; height: 29px; padding: 0; }
+      button::after { content: "↵"; font-size: 16px; }
+      .notes { grid-template-columns: 1fr; }
+      .note + .note { border-top: 1px solid rgba(103, 230, 139, .11); border-left: 0; }
+      footer span:last-child { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="backdrop"></div>
+  <main class="page">
+    <nav class="topbar" aria-label="System status">
+      <div class="brand">NORTHSTAR <span>/ network observatory</span></div>
+      <div class="status"><i></i> system ready</div>
+    </nav>
+
+    <section class="intro">
+      <p class="eyebrow">Remote diagnostics · v1.0</p>
+      <h1>Trace the edge.<br><em>Know what answers.</em></h1>
+      <p class="lede">Check whether another network endpoint is reachable and collect a simple response diagnostic from this console.</p>
+    </section>
+
+    <section class="terminal" aria-label="Network reachability console">
+      <div class="terminal-bar">
+        <div class="lights"><b></b><b></b><b></b></div>
+        <div class="terminal-title">ops@northstar <span>— diagnostic shell</span></div>
+      </div>
+      <div class="terminal-body">
+        <p class="terminal-label"><strong>01</strong> / endpoint reachability check</p>
+        <form method="post" autocomplete="off">
+          <label class="prompt" for="input" aria-hidden="true">$</label>
+          <input id="input" name="input" type="text" spellcheck="false" autofocus placeholder="enter host or address" aria-label="Host or address to check">
+          <button type="submit" aria-label="Run diagnostic">Run</button>
+        </form>
+        {% if output %}
+          <div class="output"><span class="prefix">›</span> {{ output }}</div>
+        {% else %}
+          <div class="idle">Awaiting endpoint input<span></span></div>
+        {% endif %}
+      </div>
+    </section>
+
+
+    <footer><span>Northstar systems / 2038</span><span>Encrypted session · local console</span></footer>
+  </main>
+</body>
+</html>

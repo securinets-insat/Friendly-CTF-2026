@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: magic_store_app
+    ports:
+      - "5015:80"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+    networks:
+      - backend
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+  seed:
+    build: .
+    command: php seed.php
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+    networks:
+      - backend
+    depends_on:
+      mongo:
+        condition: service_healthy
+    restart: "no"
+
+  mongo:
+    image: mongo:7
+    networks:
+      - backend
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval 'db.adminCommand(\"ping\").ok' | grep 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+networks:
+  backend:
+    internal: true

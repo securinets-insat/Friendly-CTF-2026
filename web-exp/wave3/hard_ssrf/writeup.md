@@ -1,0 +1,2 @@
+The HAProxy before 3.4.x ( 3.3.x and 3.2.x) parser breaks when an invalid URL-encoded char is found, and makes it possible for a request to a forbidden path to go through
+when combined with the dns rebinding vuln => got the flag

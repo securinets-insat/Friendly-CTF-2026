@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>files — friendly-ssti</title>
+<style>
+  :root { --bg: #ffffff; --fg: #111111; --muted: #666666; --line: #cccccc; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; }
+  body { background: var(--bg); color: var(--fg); font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace; font-size: 15px; line-height: 1.6; display: flex; justify-content: center; }
+  main { width: 100%; max-width: 640px; padding: 48px 24px; }
+  .tag, label { display: block; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 28px; }
+  .field, .file-list { border: 1px solid var(--line); padding: 14px 16px; margin: 0 0 24px; }
+  input[type="file"] { width: 100%; font: inherit; color: var(--fg); }
+  button { display: inline-block; padding: 10px 18px; border: 1px solid var(--fg); background: var(--fg); color: var(--bg); font: inherit; cursor: pointer; margin-top: 12px; }
+  button:hover { background: var(--bg); color: var(--fg); }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  li:last-child { border-bottom: 0; padding-bottom: 0; }
+  a { color: var(--fg); } .date, .empty, footer { color: var(--muted); font-size: 12px; }
+  footer { margin-top: 32px; } footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+  <main>
+    <p class="tag">Securinets · web</p>
+    <h1>Your files</h1>
+    <form method="post" action="/profile" enctype="multipart/form-data">
+      <label for="file">upload a text file</label>
+      <div class="field"><input id="file" name="file" type="file" accept=".txt,text/plain" required></div>
+      <button type="submit">Upload</button>
+    </form>
+    <label for="files">saved files</label>
+    <div class="file-list" id="files">
+      {% if files %}
+        <ul>
+          {% for file in files %}
+            <li><a href="/files/{{ file[0] }}">{{ file[1] }}</a><span class="date">{{ file[2] }}</span></li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="empty">No files uploaded yet.</p>
+      {% endif %}
+    </div>
+    <footer><a href="/logout">log out</a></footer>
+  </main>
+</body>
+</html>

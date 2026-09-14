@@ -1,0 +1,15 @@
+name: "crazy notes"
+author: "L-BOH"
+category: web exploitation
+description: .
+value: 900
+type: dynamic
+extra:
+  initial: 900
+  decay: 5
+  minimum: 200
+  
+connection_info: 
+
+flags:
+    - Securinets{s0me_fun_f0r_xss_f4ns}

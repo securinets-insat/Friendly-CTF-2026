@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    container_name: ssti_task1
+    ports:
+      - "5003:5003"
+    environment:
+      - FLAG=Securinets{3asy_serv3r_s1de_templ4te_inj3ct10n}
+      - DB_PATH=/app/data/database.db

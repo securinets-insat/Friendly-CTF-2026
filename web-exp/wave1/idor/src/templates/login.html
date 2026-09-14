@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- 
+  user credentials 
+  user:userpass
+  -->
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sign in · Notevault</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="{{ url_for('login') }}"><span class="mark">N</span>Notevault</a>
+    <span class="link">Private notes, simply organized</span>
+  </header>
+  <main class="auth">
+    <p class="eyebrow">Secure access</p>
+    <h1>Your notes, in one place</h1>
+    <p class="lede">Sign in to view your personal note collection.</p>
+    <form class="card form" method="post">
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" name="username" autocomplete="username" required autofocus>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <button type="submit">Continue to notes</button>
+    </form>
+  </main>
+</body>
+</html>

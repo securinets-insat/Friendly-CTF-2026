@@ -4,7 +4,7 @@ require_once 'includes/db.php';
 $settingsCollection = $db->settings;
 $settingsCollection->deleteMany(['key' => 'secret_hash']);
 
-$adminSecret = 'changedinprod';
+$adminSecret = '1306920678451';
 $hashedSecret = hash('sha1', $adminSecret);
 $settingsCollection->insertOne(['key' => 'secret_hash', 'value' => $hashedSecret]);
 

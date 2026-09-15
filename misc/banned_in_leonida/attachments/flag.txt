@@ -1,1 +1,1 @@
-SecuriNets{dummy_flag_for_local_testing}
+Securinets{dummy_flag_for_local_testing}

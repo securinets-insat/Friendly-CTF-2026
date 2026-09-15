@@ -15,7 +15,7 @@ extra:
 connection_info: nc pwn.securinets.tn 9041
 
 flags:
-  - SecuriNets{ch34t_c0d3_4ct1v4t3d_d3v_c0ns0l3_0p3n}
+  - Securinets{ch34t_c0d3_4ct1v4t3d_d3v_c0ns0l3_0p3n}
 
 tags:
   - pyjail

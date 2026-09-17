@@ -1,0 +1,25 @@
+name: "Follow Me"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  I asked for the file, not its life story.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9044
+
+flags:
+  - Securinets{f0ll0w_th3_l1nk_n0t_th3_n4m3}
+
+tags: []
+
+files:
+  - chall.py
+
+version: "0.1"

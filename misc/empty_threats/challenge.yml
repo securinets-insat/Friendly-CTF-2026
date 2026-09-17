@@ -1,0 +1,23 @@
+name: "EMPTY THREATS"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  Bro wrote a whole paragraph and still said nothing.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+flags:
+  - Securinets{w0w_4_wh0l3_p4r4gr4ph_0f_l1t3r4lly_n0th1ng}
+
+tags: []
+
+files:
+  - message.txt
+
+version: "0.1"

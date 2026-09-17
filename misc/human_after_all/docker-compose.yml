@@ -1,0 +1,16 @@
+services:
+  human_after_all:
+    build: .
+    ports:
+      - "9043:10001"
+    read_only: true
+    cap_drop:
+      - all
+    security_opt:
+      - no-new-privileges:true
+    restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 256M

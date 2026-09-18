@@ -1,0 +1,28 @@
+name: "XYZ"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Every time CyberLeek reconnects, Rockstar's relay broadcasts a different location. It arrives without a label, a sender, or instructions.
+
+  Somewhere in Leonida, the final build is waiting for the right crew.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9006
+
+flags:
+  - Securinets{unm4rk3d_c00rd1n4t3s_l3d_t0_th3_f1n4l_bu1ld}
+
+tags: []
+
+files:
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

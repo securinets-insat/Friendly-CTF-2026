@@ -1,0 +1,25 @@
+name: "CyberLeek's Final Upload"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  The final GTA VI archive is already leaving Rockstar's internal network. CyberLeek reached the relay, but the interface was destroyed and the upload continues as an unreadable stream.
+
+  Keep the last copy of the build from disappearing!
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9004
+
+flags:
+  - Securinets{r4w_fr4m3s_c4rr13d_th3_f1n4l_bu1ld}
+
+tags: []
+files: []
+
+version: "0.1"

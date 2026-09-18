@@ -1,0 +1,28 @@
+name: "RADIO"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Rockstar says the signal is gone. CyberLeek disagrees.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9015
+
+flags:
+  - Securinets{luc14s_j1ggl3_1s_20GB_0r_20480MB}
+
+tags: []
+
+files:
+  - main
+  - libc.so.6
+  - ld-linux-x86-64.so.2
+  - attachments/flag.txt
+
+version: "0.1"

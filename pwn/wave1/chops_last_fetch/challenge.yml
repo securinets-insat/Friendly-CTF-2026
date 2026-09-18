@@ -1,0 +1,29 @@
+name: "Chop's Last Fetch"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  CyberLeek entrusted the final piece of the GTA VI build to the only courier in Los Santos who could never be bribed, traced, or questioned.
+
+  Chop still has the drop, but he only listens to handlers who can follow every command without falling behind. Keep up, and he may return with more than a stick.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9003
+
+flags:
+  - Securinets{g00d_b0y_ch0p_br0ught_b4ck_th3_bu1ld}
+
+tags:
+  - pwntools
+
+files:
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

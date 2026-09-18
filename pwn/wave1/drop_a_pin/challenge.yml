@@ -1,0 +1,28 @@
+name: "Drop a Pin"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  The getaway driver refuses to move without an exact pickup point. Give him the right location and CyberLeek's next upload is yours. Miss by one street and enjoy the wanted screen.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9014
+
+flags:
+  - Securinets{th3_g3t4w4y_dr1v3r_n33d3d_4n_3x4ct_p1n}
+
+tags:
+  - ret2win
+
+files:
+  - main
+  - main.c
+  - attachments/flag.txt
+
+version: "0.1"

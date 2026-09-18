@@ -1,0 +1,30 @@
+name: "BETTER CALL WAWA"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Some names never leave the contact list.
+
+  When every Rockstar line went silent, one number still answered: WAWA. CyberLeek has one call to trace the signal, reach the archive, and bring the leak home.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9010
+
+flags:
+  - Securinets{B3TT3R_C4LL_W4W4_6G_YALLLA}
+
+tags: []
+
+files:
+  - ld-linux-x86-64.so.2
+  - main
+  - libc.so.6
+  - attachments/flag.txt
+
+version: "0.1"

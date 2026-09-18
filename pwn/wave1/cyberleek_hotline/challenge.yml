@@ -1,0 +1,25 @@
+name: "Cyberleek Hotline"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Cyberleek loves using netcat, so use it to cooperate with him.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9016
+
+flags:
+  - Securinets{n3tc4t_m4d3_m3_cyb3rl33ks_4cc0mpl1c3}
+
+tags:
+  - netcat
+
+files: []
+
+version: "0.1"

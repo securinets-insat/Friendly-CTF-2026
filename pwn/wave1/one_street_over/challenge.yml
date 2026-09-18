@@ -1,0 +1,26 @@
+name: "One Street Over"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  CyberLeek's escape route was almost perfect. The final build is not across Leonida. It is only one street away from where the driver planned to return.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9007
+
+flags:
+  - Securinets{0n3_byt3_0n3_str33t_0n3_f1n4l_l34k}
+
+tags: []
+
+files:
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

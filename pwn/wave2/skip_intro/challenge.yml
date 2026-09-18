@@ -1,0 +1,30 @@
+name: "skiiiiiip"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Rockstar's archive always begins with one final security sequence. Anyone who watches from the first frame is immediately removed.
+
+  CyberLeek was never interested in introductions. The real leak begins afterward.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9005
+
+flags:
+  - Securinets{sk1pp3d_th3_1ntr0_st0l3_th3_bu1ld}
+
+tags:
+  - ret2win
+
+files:
+  - main.c
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

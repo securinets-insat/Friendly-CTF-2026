@@ -1,0 +1,28 @@
+name: "2nd_download"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Rockstar's relay records only the beginning of every transfer before launching it. CyberLeek knows the opening fragment was never meant to contain the entire build.
+
+  It only needs to make room for what comes next.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9008
+
+flags:
+  - Securinets{th3_s3c0nd_d0wnl04d_c4rr13d_th3_r34l_l34k}
+
+tags: []
+
+files:
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

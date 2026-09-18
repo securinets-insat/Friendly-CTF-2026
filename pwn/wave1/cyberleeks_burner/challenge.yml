@@ -1,0 +1,27 @@
+name: "CyberLeek's Burner"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  CyberLeek's burner phone has started receiving fragments from somewhere inside Vice City. Every transmission disappears almost immediately, and the sender refuses to repeat anything.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9002
+
+flags:
+  - Securinets{th3_burn3r_n3v3r_st0pp3d_r1ng1ng}
+
+tags:
+  - pwntools
+
+files:
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

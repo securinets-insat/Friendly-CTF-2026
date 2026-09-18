@@ -1,0 +1,30 @@
+name: "Off the Radar"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Rockstar's new wanted system knows more than how many stars you have. CyberLeek is visible, identified, trapped inside the search area, and still carrying heat.
+
+  Before the next build leaves Leonida, every trace has to disappear.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9011
+
+flags:
+  - Securinets{https://x.com/veloraJade/status/2094329801213649330}
+
+tags:
+  - overflow
+
+files:
+  - main.c
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

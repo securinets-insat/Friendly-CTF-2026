@@ -1,0 +1,17 @@
+version: '3'
+services:
+  the_first_leek:
+    build: .
+    ports:
+      - 9001:10001
+    read_only: true
+    cap_drop:
+      - all
+
+    restart: on-failure
+
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 1000M

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  chops_last_fetch:
+    build: .
+    ports:
+      - 9003:10001
+    read_only: true
+    cap_drop:
+      - all
+
+    restart: on-failure
+
+    deploy:
+        resources:
+            limits:
+              cpus: '0.2'
+              memory: 1000M

@@ -1,0 +1,22 @@
+name: "Water Run"
+author: "fadigaa"
+category: "Reverse Engineering"
+description: |-
+  When the road says the run is over, decide whether you agree.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 100
+
+connection_info:
+
+flags:
+  - "Securinets{1f_th3_g4me_w0nt_l3t_y0u_w1n_ch4nge_1t}"
+
+files:
+  - attachments/WaterRun-windows-x64.zip
+
+version: "0.1"

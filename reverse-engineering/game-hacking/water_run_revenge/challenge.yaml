@@ -1,0 +1,24 @@
+name: "Water Run: Revenge"
+author: "fadigaa"
+category: "Reverse Engineering"
+description: |-
+  You bent the rules once. The city noticed.
+
+  The chase has changed, the road has learned, and yesterday's answer will not save you twice.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 600
+  decay: 5
+  minimum: 200
+
+connection_info:
+
+flags:
+  - "Securinets{v3locity_is_gr4vity_with_attitude}"
+
+files:
+  - attachments/WaterRun-Revenge-windows-x64.zip
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Forged Papers"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 550
+  decay: 5
+  minimum: 183
+
+connection_info:
+
+flags:
+  - "Securinets{forged_papers_grant_admin}"
+
+files: []
+
+version: "0.1"

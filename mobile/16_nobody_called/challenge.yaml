@@ -1,0 +1,25 @@
+name: "Nobody Called"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 166
+
+connection_info:
+
+flags:
+  - "Securinets{c4ll_1t_y0urs3lf_8b3f21}"
+
+files: []
+
+version: "0.1"

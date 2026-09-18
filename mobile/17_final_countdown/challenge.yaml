@@ -1,0 +1,25 @@
+name: "Final Countdown"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 700
+  decay: 5
+  minimum: 233
+
+connection_info:
+
+flags:
+  - "Securinets{th3_cl0ck_1s_th3_1nput_fa51adbf}"
+
+files: []
+
+version: "0.1"

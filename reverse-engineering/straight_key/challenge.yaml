@@ -1,0 +1,26 @@
+name: "Straight Key"
+author: "fadigaa"
+category: "Reverse Engineering"
+description: |-
+  We pulled this keyboard self-test utility from a workstation that had been behaving oddly. It types a fixed pattern into whichever window is in front of it, then stops.
+
+  The odd part is that it keeps typing the same character. Whatever it is saying, it is not saying it in the letters.
+
+  Run it only inside a disposable Windows VM.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 100
+
+connection_info:
+
+flags:
+  - "Securinets{HELDNOTTYPED}"
+
+files:
+  - attachments/KeyboardSelfTest.exe
+
+version: "0.1"

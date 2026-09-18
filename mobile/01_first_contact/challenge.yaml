@@ -1,0 +1,30 @@
+name: "First Contact"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  Welcome to the Mobile track. One Android application contains every challenge in this category, and the APK attached here is the only copy you need. Install it in a disposable lab environment and follow the targets inside the app in order.
+
+  A practical setup includes an Android emulator or rooted test device, ADB, JADX, apktool, sqlite3, Burp Suite or mitmproxy, Frida or Objection, curl, and Android signing tools. You will not need all of them immediately: begin with static inspection, then expand your setup as the track introduces device, runtime, network, and native challenges.
+
+  Do not use a personal phone. Some targets intentionally require root, traffic interception, instrumentation, APK modification, or re-signing. Later challenge entries do not repeat the APK attachment; they all refer to this same application.
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 66
+
+connection_info:
+
+flags:
+  - "Securinets{sh1pp3d_1n_th3_0p3n}"
+
+files:
+  - attachments/app-release.apk
+
+version: "0.1"

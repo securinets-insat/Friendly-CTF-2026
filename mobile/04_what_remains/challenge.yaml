@@ -1,0 +1,25 @@
+name: "What Remains"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 350
+  decay: 5
+  minimum: 116
+
+connection_info:
+
+flags:
+  - "Securinets{pl41nt3xt_3v1d3nc3_7de67f16}"
+
+files: []
+
+version: "0.1"

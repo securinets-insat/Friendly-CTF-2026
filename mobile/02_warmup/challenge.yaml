@@ -1,0 +1,25 @@
+name: "Warmup"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 250
+  decay: 5
+  minimum: 83
+
+connection_info:
+
+flags:
+  - "Securinets{k3y_und3r_th3_d00rmat_ddf88982}"
+
+files: []
+
+version: "0.1"

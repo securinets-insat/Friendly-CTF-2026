@@ -1,0 +1,25 @@
+name: "Face to Face"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 450
+  decay: 5
+  minimum: 150
+
+connection_info:
+
+flags:
+  - "Securinets{n3v3r_ch3ck3d_y0ur_f4c3_2ebfa0af}"
+
+files: []
+
+version: "0.1"

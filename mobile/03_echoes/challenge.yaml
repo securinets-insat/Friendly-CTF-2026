@@ -1,0 +1,25 @@
+name: "Echoes"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 250
+  decay: 5
+  minimum: 83
+
+connection_info:
+
+flags:
+  - "Securinets{th3_app_t4lks_t00_much_9cd6e756}"
+
+files: []
+
+version: "0.1"

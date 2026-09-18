@@ -1,0 +1,25 @@
+name: "DOR"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 166
+
+connection_info:
+
+flags:
+  - "Securinets{f4c9a2e7-b81d-4f3a-9c6e-2b7d5a1f8e3c}"
+
+files: []
+
+version: "0.1"

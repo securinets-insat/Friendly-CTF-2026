@@ -1,0 +1,25 @@
+name: "Off the Map"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 350
+  decay: 5
+  minimum: 116
+
+connection_info:
+
+flags:
+  - "Securinets{br1dg3_t00_far_455c016c}"
+
+files: []
+
+version: "0.1"

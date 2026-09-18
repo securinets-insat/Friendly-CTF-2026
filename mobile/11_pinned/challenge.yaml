@@ -1,0 +1,25 @@
+name: "PINNED"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 600
+  decay: 5
+  minimum: 200
+
+connection_info:
+
+flags:
+  - "Securinets{sealed_envelope_pin_bypassed}"
+
+files: []
+
+version: "0.1"

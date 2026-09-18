@@ -1,0 +1,25 @@
+name: "Strangers"
+
+author: "fadigaa"
+
+category: "Mobile"
+
+description: |-
+  .
+
+type: "dynamic"
+
+extra:
+  function: linear
+  initial: 550
+  decay: 5
+  minimum: 183
+
+connection_info:
+
+flags:
+  - "Securinets{th3_p4ss3ng3r_c4lls_h0m3}"
+
+files: []
+
+version: "0.1"

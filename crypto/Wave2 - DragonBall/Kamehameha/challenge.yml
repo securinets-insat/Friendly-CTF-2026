@@ -1,0 +1,39 @@
+name: Kamehameha
+
+category: Cryptography
+
+description: |-
+  Goku has released a powerful Kamehameha… but something seems strange.
+
+  Hidden inside the attack is a message waiting to be discovered.
+
+  Listen carefully. The answer may be closer than you think
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)
+value: 200
+
+type: dynamic
+
+extra:
+  initial: 200
+  decay: 40
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{KAAAA_MEEEE_HAAAA_MEEEE_HAAAAAAAAA}
+files:
+  - dist/chall.wav
+
+tags:
+  - Morse code
+  - Audio
+  - Dragon Ball
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

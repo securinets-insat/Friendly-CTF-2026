@@ -1,1 +1,0 @@
-Use manga font generator to retrieve the base64 cipher : U2VjdXJpbmV0c3tJX1c0Tk40X0IzQzBNM180XzVVUDNSX1M0SVk0TiEhIX0= then use cyberchef to retrieve the flag : Securinets{I_W4NN4_B3C0M3_4_5UP3R_S4IY4N!!!}

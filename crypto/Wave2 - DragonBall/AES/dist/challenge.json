@@ -1,1 +1,0 @@
-{"ciphertext": "dd7d9225d5d724381ab07ea9830ea6792a8a91740c05a053da9f7d40e3769014c7626ecb629de978085ce5e6714604f4", "iv": "8845a59d499ae2cbe0f90b35393656fe", "mode": "AES-CBC", "key_derivation": "MD5(password)", "hint": "The password is 4 digits."}

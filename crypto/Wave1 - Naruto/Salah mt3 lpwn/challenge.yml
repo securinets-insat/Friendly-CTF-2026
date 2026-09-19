@@ -1,0 +1,38 @@
+name: Salah mta3 lpwn
+
+category: Cryptography
+
+description: |-
+  On his way to rescue Gaara , Naruto found Itachi Uchiha , the brother of Sasuke Uchiha.
+  Itachi was a skilled ninja and a member of the Akatsuki organization.
+  Naruto used **Rasengan** to defeat Itachi but Itachi was not defeated yet !!!
+  He was still alive and fighting.
+  HOWW !!! XOR !!!
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)
+value: 100
+
+type: dynamic
+
+extra:
+  initial: 200
+  decay: 40
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{y0u_4r3_4lr34dy_c4ght_1n_my_XOR_g3njutsu}
+files:
+  - dist/chall.txt
+
+tags:
+  - XOR
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

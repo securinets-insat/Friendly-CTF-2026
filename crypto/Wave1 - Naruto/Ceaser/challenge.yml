@@ -1,0 +1,41 @@
+name: Cesaer
+
+category: Cryptography
+
+description: |-
+  Naruto found a mysterious message left by the Hokage.
+
+  Unfortunately, it seems that every letter has been shifted...
+  
+  Can you restore the original message and uncover what was written?
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 100
+
+type: dynamic
+
+extra:
+  initial: 200
+  decay: 40
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{1_n3v3r_g0_b4ck_0n_my_w0rd_n1nd0}
+
+files:
+  - dist/chall.txt
+
+tags:
+  - Encoding
+  - Ceasar
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

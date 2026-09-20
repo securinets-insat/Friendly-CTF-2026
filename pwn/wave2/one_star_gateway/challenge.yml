@@ -8,7 +8,7 @@ description: |-
 type: dynamic
 extra:
   function: linear
-  initial: 200
+  initial: ٤٠٠
   decay: 5
   minimum: 100
 

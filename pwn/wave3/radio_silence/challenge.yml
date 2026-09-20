@@ -8,9 +8,9 @@ description: |-
 type: dynamic
 extra:
   function: linear
-  initial: 500
+  initial: 600
   decay: 5
-  minimum: 100
+  minimum: 200
 
 connection_info: nc pwn.securinets.tn 9015
 

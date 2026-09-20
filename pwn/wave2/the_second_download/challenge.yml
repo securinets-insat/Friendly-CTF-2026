@@ -10,7 +10,7 @@ description: |-
 type: dynamic
 extra:
   function: linear
-  initial: 200
+  initial: 400
   decay: 5
   minimum: 100
 

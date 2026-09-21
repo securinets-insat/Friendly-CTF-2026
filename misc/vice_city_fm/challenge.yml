@@ -1,0 +1,25 @@
+name: "VICE CITY FM"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  Vice City FM lost every song, but the playlist still remembers how long each track was supposed to last.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{th3_pl4yl1st_w4s_th3_l34k}
+
+tags:
+  - encoding
+  - file-format
+
+files:
+  - playlist.m3u
+
+version: "0.1"

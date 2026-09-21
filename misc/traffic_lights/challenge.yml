@@ -1,0 +1,25 @@
+name: "TRAFFIC LIGHTS"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: misc
+description: |-
+  CyberLeek synchronized every traffic light in Vice City. The pattern was never meant for drivers.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{r3d_gr33n_l1ghts_sp3ll_th3_l34k}
+
+tags:
+  - encoding
+  - binary
+
+files:
+  - traffic.txt
+
+version: "0.1"

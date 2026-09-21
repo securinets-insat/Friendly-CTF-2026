@@ -1,0 +1,28 @@
+name: "Radio Vice City"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Vice City routes every call through five dead channels before it ever reaches air.
+
+  Follow the relay deep enough and the last frequency still hands back exactly what you fed it.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 150
+  decay: 5
+  minimum: 75
+
+connection_info: nc pwn.securinets.tn 9051
+
+flags:
+  - Securinets{v1c3_c1ty_5_d34d_ch4nn3ls_st1ll_4nsw3r}
+
+tags:
+  - format-string
+
+files:
+  - main
+
+version: "0.1"

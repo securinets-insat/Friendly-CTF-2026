@@ -1,0 +1,28 @@
+name: "Rootstar Games"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Rootstar's developer portal still ships with the default credentials nobody bothered to rotate.
+
+  Get past the login, and the CEO's own build notes are one careless print away.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 150
+  decay: 5
+  minimum: 75
+
+connection_info: nc pwn.securinets.tn 9052
+
+flags:
+  - Securinets{d3f4ult_cr3ds_l34k3d_th3_c30_bu1ld_n0t3s}
+
+tags:
+  - format-string
+
+files:
+  - main
+
+version: "0.1"

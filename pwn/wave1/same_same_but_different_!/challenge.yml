@@ -1,0 +1,28 @@
+name: "Same Same But Different!"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  The v2 portal looks identical to the last leak — different struct, same bad habits.
+
+  CyberLeek swears this build behaves differently. It doesn't.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 150
+  decay: 5
+  minimum: 75
+
+connection_info: nc pwn.securinets.tn 9053
+
+flags:
+  - Securinets{s4m3_5truct_r30rd3r3d_bug_st1ll_th3r3}
+
+tags:
+  - format-string
+
+files:
+  - main
+
+version: "0.1"

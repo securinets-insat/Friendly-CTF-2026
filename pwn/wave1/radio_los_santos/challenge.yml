@@ -1,0 +1,28 @@
+name: "Radio Los Santos"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Los Santos runs its late-night frequency raw — whatever you feed the mic, it broadcasts straight back word for word.
+
+  CyberLeek is listening for the first handler careless enough to key in the wrong format.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9050
+
+flags:
+  - Securinets{l0s_s4nt0s_3ch03s_b4ck_3v3ry_w0rd}
+
+tags:
+  - format-string
+
+files:
+  - main
+
+version: "0.1"

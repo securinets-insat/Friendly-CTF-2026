@@ -1,0 +1,28 @@
+name: "Impound Lot"
+author: "r3t0x"
+attribution: 'Written by [r3t0x](https://r3t0x.me/)'
+category: pwn
+description: |-
+  Rockstar's impound terminal lists only three vehicles. CyberLeek knows the getaway car was parked somewhere the clerk was never supposed to search.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 100
+  decay: 5
+  minimum: 50
+
+connection_info: nc pwn.securinets.tn 9017
+
+flags:
+  - Securinets{sl0t_3_w4s_n0t_0n_th3_l1st}
+
+tags:
+  - oob
+
+files:
+  - main.c
+  - main
+  - attachments/flag.txt
+
+version: "0.1"

@@ -12,7 +12,7 @@ extra:
   decay: 5
   minimum: 100
 
-connection_info: nc pwn.securinets.tn 9043
+connection_info: nc misc.securinets.tn 9043
 
 flags:
   - Securinets{c0mm3nts_4r3_f34tur3s_t00}

@@ -1,0 +1,40 @@
+name: XOR Me
+
+category: Reverse Engineering
+
+description: |-
+  This binary asks for the flag and only tells you if you are right or wrong.
+  The flag is hidden inside, but it's not stored in plain sight this time.
+  Open it in your favourite disassembler (**IDA**, Ghidra...) and figure out how it's checked.
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 300
+
+type: dynamic
+
+extra:
+  initial: 300
+  decay: 20
+  minimum: 50
+
+logic: any
+
+flags:
+  - Securinets{X0r3d_1N_IDA_little_revers3rs}
+
+files:
+  - dist/IDA
+
+tags:
+  - XOR
+  - IDA
+  - Static-Analysis
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

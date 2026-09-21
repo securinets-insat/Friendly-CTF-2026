@@ -1,0 +1,5 @@
+challenge.yml
+Dockerfile
+.dockerignore
+Handouts/
+*.md

@@ -1,0 +1,41 @@
+name: Mayuri Kurotsuchi
+
+category: Cryptography
+
+description: |-
+  Mayuri Kurotsuchi is a scientist and the captain of the 12th Division in the Gotei 13.
+  He is known for his intelligence and his ability to create various gadgets and devices to aid in combat.
+  He is known for his sadistic nature and his willingness to experiment on others, often using them as test subjects for his inventions.
+  He invented new forms of everything , including RSA ...
+  The RSA with two exponents ...
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 600
+
+type: dynamic
+
+extra:
+  initial: 600
+  decay: 40
+  minimum: 100
+
+logic: any
+
+flags:
+  - "Securinets{m4yur1_14b_p3rm1ss10n_gr4nt3d}"
+
+files:
+  - handout/chall.py
+  - handout/chall_output.txt
+
+tags:
+  - RSA
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

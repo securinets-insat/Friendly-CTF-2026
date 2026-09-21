@@ -11,7 +11,8 @@ description: |-
 
   **Author**: [Zanpakto](https://jedjmili.github.io/)
 
-attribution: '[Zanpakto](https://jedjmili.github.io/)
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
 value: 200
 
 type: dynamic
@@ -25,6 +26,7 @@ logic: any
 
 flags:
   - Securinets{KAAAA_MEEEE_HAAAA_MEEEE_HAAAAAAAAA}
+
 files:
   - dist/chall.wav
 
@@ -32,6 +34,7 @@ tags:
   - Morse code
   - Audio
   - Dragon Ball
+
 requirements:
   prerequisites: []
   anonymize: false

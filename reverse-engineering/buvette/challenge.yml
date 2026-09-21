@@ -1,0 +1,42 @@
+name: Buvette INSAT
+
+category: Reverse Engineering
+
+description: |-
+  You are thirsty and the last bottle of **Mee Ma9tou3** costs 500 DT.
+  You only have 100 DT in your pocket...
+  Ezreb fissa3 w khoudh bayek. Ken techri lmee na3tik m3ah flag blech.
+
+  Reverse the provided binary, find the flaw in the cashier's logic and buy the water on the remote buvette.
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 700
+
+type: dynamic
+
+connection_info: nc <VPS_IP> 1338
+
+extra:
+  initial: 700
+  decay: 20
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{J1B0ULNAAA_LM333_W0UUUH_Y4_CH0UUM11_W0UUH}
+
+files:
+  - dist/buvette
+
+tags:
+  
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

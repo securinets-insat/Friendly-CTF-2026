@@ -1,0 +1,39 @@
+name: Bankai
+
+category: Cryptography
+
+description: |-
+  Ichigo has entered Soul Society, but five barriers stand between him and the Central 46 archive.
+  Every barrier hides a different secret: a shifted seal, a scattered pattern, a Zanpakuto's language,
+  an encrypted session... and finally Aizen's Hogyoku itself.
+
+  Bankai won't help you. Your brain might.
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 1000
+
+type: dynamic
+
+connection_info: nc <VPS_IP> 31337
+
+extra:
+  initial: 1000
+  decay: 20
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{b4nk4i_br0k3_th3_h0gy0ku}
+
+tags:
+  - MultiEncryption
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

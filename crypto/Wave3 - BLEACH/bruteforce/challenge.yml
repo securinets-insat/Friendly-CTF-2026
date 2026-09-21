@@ -1,0 +1,42 @@
+name: Gestuga Tencho
+
+category: Cryptography
+
+description: |-
+  While training in Soul Society , Ichigo fought against his own Zanpakto spirit , Zangetsu , in order to regain his lost powers.
+  During the fight , Ichigo was able to unlock a new form of his Zanpakuto , which he named "Gestuga Tencho" .
+  This new form allowed Ichigo to access a new level of power and speed , making him a formidable opponent in battle.
+  In order to unlock this form , Ichigo had to use his secret weapon ...
+  Try to find the flag by using that technique , but be careful , it takes a lot of time and effort to master it ...
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 700
+
+type: dynamic
+
+connection_info: nc <VPS_IP> 1337
+
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+
+logic: any
+
+flags:
+  - "Securinets{g3t_s𝔲g4_t3nsh0_f1n4l_Brut3_F0rc3}"
+
+files:
+  - Handouts/chall.py
+
+tags:
+  - Bruteforce
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

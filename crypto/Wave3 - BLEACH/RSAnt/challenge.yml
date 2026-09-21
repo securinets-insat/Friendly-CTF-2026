@@ -1,0 +1,43 @@
+name: RSAnt
+
+category: Cryptography
+
+description: |-
+  Long ago, Kisuke Urahara hid the Hogyoku deep inside the soul of Rukia Kuchiki.
+  Aizen knew. From the shadows, he manipulated Central 46 into sentencing her to death,
+  waiting for the Sokyoku to tear the Hogyoku out of her body.
+  Every captain, every lieutenant, even Ichigo's rescue... all of it was part of his plan.
+
+  Before leaving Soul Society for Hueco Mundo, Aizen encrypted his orders to Gin and Tosen.
+  The message was intercepted. Decrypt it and uncover Aizen's plan.
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 500
+
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{4ll_4cc0rd1ng_t0_41z3ns_pl4n}
+
+files:
+  - handouts/output.txt
+
+tags:
+  - RSA
+  - Small Exponent
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

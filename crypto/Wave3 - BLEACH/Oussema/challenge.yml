@@ -1,11 +1,12 @@
-name: Dragon Ball
+name: Oussema
 
 category: Cryptography
 
 description: |-
-  Welcome to Dragon Ball world .
-  Join Goku on his journey to save the universe.
-  To recover the flag , I think you need to read the **manga** , maybe ...
+  My friend Oussema is brainrotted, he left this message for me and the note to help me understand.
+  HELPPP!!!!!!!!
+
+  **Flag Format**: Securinets{firstword**secondword}
 
   **Author**: [Zanpakto](https://jedjmili.github.io/)
 
@@ -23,14 +24,15 @@ extra:
 logic: any
 
 flags:
-  - Securinets{I_W4NN4_B3C0M3_4_5UP3R_S4IY4N!!!}
+  - Securinets{AZIZ**RAHMOUNI}
 
 files:
-  - dist/ciphertext.txt
+  - Handouts/ciphertext.txt
+  - Handouts/note.txt
 
 tags:
-  - Base64
-  - Cryptography
+  - Leetspeak
+  - Encoding
 
 requirements:
   prerequisites: []

@@ -1,4 +1,4 @@
-name: Cesaer
+name: Caesar
 
 category: Cryptography
 
@@ -6,14 +6,14 @@ description: |-
   Naruto found a mysterious message left by the Hokage.
 
   Unfortunately, it seems that every letter has been shifted...
-  
+
   Can you restore the original message and uncover what was written?
 
   **Author**: [Zanpakto](https://jedjmili.github.io/)
 
 attribution: '[Zanpakto](https://jedjmili.github.io/)'
 
-value: 100
+value: 200
 
 type: dynamic
 
@@ -32,7 +32,7 @@ files:
 
 tags:
   - Encoding
-  - Ceasar
+  - Caesar
 
 requirements:
   prerequisites: []

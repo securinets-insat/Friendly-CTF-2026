@@ -12,7 +12,7 @@ description: |-
 
 attribution: '[Zanpakto](https://jedjmili.github.io/)'
 
-value: 100
+value: 200
 
 type: dynamic
 
@@ -27,7 +27,7 @@ flags:
   - Securinets{Th15_W0rld_5h4ll_Kn0w_P41n}
 
 files:
-  - dist/chall.txt
+  - "dist/base 64.txt"
 
 tags:
   - Encoding

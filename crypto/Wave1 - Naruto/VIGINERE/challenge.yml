@@ -10,8 +10,9 @@ description: |-
 
   **Author**: [Zanpakto](https://jedjmili.github.io/)
 
-attribution: '[Zanpakto](https://jedjmili.github.io/)
-value: 100
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 200
 
 type: dynamic
 
@@ -24,6 +25,7 @@ logic: any
 
 flags:
   - Securinets{N0UR_Z4C4P1T0}
+
 files:
   - dist/chall.txt
 

@@ -1,0 +1,39 @@
+name: Revenge
+
+category: Reverse Engineering
+
+description: |-
+  The flag is not where you think it is.
+  Something is hiding behind the layers...
+  Peel them off one by one before you start reversing.
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 300
+
+type: dynamic
+
+extra:
+  initial: 300
+  decay: 20
+  minimum: 50
+
+logic: any
+
+flags:
+  - Securinets{T4LA3_Y4_R4HM0UN1_3L_UPX_LF0UUU9_T4LA3}
+
+files:
+  - dist/revenge
+
+tags:
+  - UPX
+  - XOR
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

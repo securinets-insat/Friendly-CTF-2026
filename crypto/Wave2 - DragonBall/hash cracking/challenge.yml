@@ -11,11 +11,12 @@ description: |-
 
   Gather the energy. Break the hash. Power up the Spirit Bomb.
 
-  Can you recover the hidden message and open the ZIP file before Goku releases it?
+  Can you recover the hidden message and open the RAR archive before Goku releases it?
 
   **Author**: [Zanpakto](https://jedjmili.github.io/)
 
-attribution: '[Zanpakto](https://jedjmili.github.io/)
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
 value: 700
 
 type: dynamic
@@ -29,13 +30,16 @@ logic: any
 
 flags:
   - Securinets{g0ku_n33ds_y0ur_H4sH_sp1r1t_b0mb}
+
 files:
   - dist/hash.txt
-  - dist/Flag.zip
+  - dist/Flag.rar
+
 tags:
   - Hash Cracking
   - Hashcat
   - MD5
+
 requirements:
   prerequisites: []
   anonymize: false

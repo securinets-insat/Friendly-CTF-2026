@@ -6,11 +6,12 @@ description: |-
   After Goku saying **People of Earth!! Please, give me your energy!!** , He released a powerful Spirit Bomb.
   But it seems not enough to defeat Majin Buu.
   Goku received a message from the Supreme Kai, containing 3 ciphertexts , which are the keys to unlock the power of the Spirit Bomb.
-  HELP GOKUU !! BRAVE SAIYAN!! AND DEFEAT MAJIN BUU!! 
+  HELP GOKUU !! BRAVE SAIYAN!! AND DEFEAT MAJIN BUU!!
 
   **Author**: [Zanpakto](https://jedjmili.github.io/)
 
-attribution: '[Zanpakto](https://jedjmili.github.io/)
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
 value: 300
 
 type: dynamic
@@ -24,11 +25,14 @@ logic: any
 
 flags:
   - Securinets{k4m3h4m3h4_b34m_d3str0ys_th3_k3y}
+
 files:
   - dist/output.txt
+
 tags:
   - XOR
   - Cryptography
+
 requirements:
   prerequisites: []
   anonymize: false

@@ -1,0 +1,41 @@
+# Remote challenges for Securinets Friendly CTF.
+# On the VPS:  docker compose up -d --build
+services:
+  bankai:
+    build: "./Crypto/Wave3 - BLEACH/Bankai"
+    container_name: bankai
+    ports:
+      - "31337:31337"
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 200
+    mem_limit: 256m
+    cpus: 0.5
+
+  bruteforce:
+    build: "./Crypto/Wave3 - BLEACH/bruteforce"
+    container_name: bruteforce
+    ports:
+      - "1337:1337"
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 300
+    mem_limit: 512m
+    cpus: 1.0
+
+  buvette:
+    build: "./Rev/buvette"
+    container_name: buvette
+    ports:
+      - "1338:1338"
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 200
+    mem_limit: 256m
+    cpus: 0.5

@@ -1,0 +1,39 @@
+name: Welcome
+
+category: Reverse Engineering
+
+description: |-
+  Welcome to the Securinets Friendly CTF, challenger!
+  This program just greets you and does nothing else... or does it?
+  Sometimes the answer is written right there, you just need to look at the right **strings**.
+
+  **Author**: [Zanpakto](https://jedjmili.github.io/)
+
+attribution: '[Zanpakto](https://jedjmili.github.io/)'
+
+value: 100
+
+type: dynamic
+
+extra:
+  initial: 100
+  decay: 40
+  minimum: 100
+
+logic: any
+
+flags:
+  - Securinets{5tr1ng5_4r3_3v3rywh3r3!!!}
+
+files:
+  - dist/welcome
+
+tags:
+  - Strings
+  - Beginner
+
+requirements:
+  prerequisites: []
+  anonymize: false
+
+version: '0.1'

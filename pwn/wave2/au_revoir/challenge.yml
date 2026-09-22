@@ -1,0 +1,30 @@
+name: "Au Revoir"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Rootstar's switchboard greets every caller by name and hangs up politely when they're done.
+
+  Between the "Bonjour" and the "Au revoir" it forgets to count how much you're allowed to say.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9061
+
+flags:
+  - Securinets{th3_gr33t1ng_l34k3d_ur_fd_4u_r3v01r}
+
+tags:
+  - rop
+
+files:
+  - main
+  - ld-linux-x86-64.so.2
+  - libc.so.6
+
+version: "0.1"

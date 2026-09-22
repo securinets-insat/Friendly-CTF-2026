@@ -1,9 +1,9 @@
 version: '3'
 services:
-  cheat_code:
+  fullclip:
     build: .
     ports:
-      - 9056:10001
+      - 9058:10001
     read_only: true
     cap_drop:
       - all

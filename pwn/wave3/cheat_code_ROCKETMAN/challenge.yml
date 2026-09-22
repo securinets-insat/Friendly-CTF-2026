@@ -1,0 +1,28 @@
+name: "Rocketman"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Every GTA build hides a cheat code nobody's supposed to find.
+
+  Rootstar's Rocketman variant only unlocks after two careful reloads — line up both shots and the shell fires itself.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9056
+
+flags:
+  - Securinets{r0ck3tm4n_n33d3d_tw0_sh0ts_t0_l4nd}
+
+tags:
+  - format-string
+
+files:
+  - main
+
+version: "0.1"

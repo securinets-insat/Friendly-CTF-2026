@@ -1,0 +1,28 @@
+name: "Wrong Number"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Rootstar's hotline routes every call by exactly how many digits you dial — nothing more, nothing less.
+
+  Dial the right number and the operator on the other end hands you a lot more than a busy signal.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9057
+
+flags:
+  - Securinets{d14l_th3_r1ght_sysc4ll_numb3r_g3t_4_sh3ll}
+
+tags:
+  - syscall
+
+files:
+  - main
+
+version: "0.1"

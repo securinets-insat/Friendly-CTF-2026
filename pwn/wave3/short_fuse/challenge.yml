@@ -1,0 +1,28 @@
+name: "Short Fuse"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Rootstar's debug console only lets you type five characters before it cuts the line.
+
+  Light the fuse fast enough and even printf can't save it from itself.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9060
+
+flags:
+  - Securinets{f1v3_ch4rs_w4s_4ll_1t_t00k}
+
+tags:
+  - format-string
+
+files:
+  - main
+
+version: "0.1"

@@ -1,11 +1,11 @@
-name: "Cheat Code"
+name: "Full Clip"
 author: "Taz"
 attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
 category: pwn
 description: |-
   Every GTA build hides a cheat code nobody's supposed to find.
 
-  Rootstar buried theirs in a local variable — guess right, feed the right bytes, and the shell types itself.
+  Rootstar's Full Clip variant gives you one continuous burst — empty the whole magazine in a single read and the shell fires itself.
 
 type: dynamic
 extra:
@@ -14,13 +14,13 @@ extra:
   decay: 5
   minimum: 100
 
-connection_info: nc pwn.securinets.tn 9056
+connection_info: nc pwn.securinets.tn 9058
 
 flags:
-  - Securinets{th3_ch34t_c0d3_w4s_0xc0_4ll_4l0ng}
+  - Securinets{fullcl1p_1_m4g_1_sh3ll}
 
 tags:
-  - overflow
+  - format-string
 
 files:
   - main

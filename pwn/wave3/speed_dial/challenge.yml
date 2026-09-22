@@ -1,0 +1,28 @@
+name: "Speed Dial"
+author: "Taz"
+attribution: 'Written by [Taz](https://www.linkedin.com/in/moetezzouari/)'
+category: pwn
+description: |-
+  Rootstar's switchboard remembers the last file it opened.
+
+  Dial the right syscall on speed-dial and the operator patches that very file straight back to you.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 100
+
+connection_info: nc pwn.securinets.tn 9059
+
+flags:
+  - Securinets{sp33d_d14l3d_str41ght_1nt0_th3_fl4g_fd}
+
+tags:
+  - syscall
+
+files:
+  - main
+
+version: "0.1"

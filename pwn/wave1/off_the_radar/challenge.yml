@@ -14,7 +14,7 @@ extra:
   decay: 5
   minimum: 50
 
-connection_info: nc pwn.securinets.tn 9011
+connection_info: nc pwn.friendly-ctf.securinets.tn 9011
 
 flags:
   - Securinets{https://x.com/veloraJade/status/2094329801213649330}

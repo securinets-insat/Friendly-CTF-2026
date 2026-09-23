@@ -8,11 +8,11 @@ description: |-
 type: dynamic
 extra:
   function: linear
-  initial: 900
+  initial: 800
   decay: 5
   minimum: 300
 
-connection_info: nc pwn.securinets.tn 9012
+connection_info: nc pwn.friendly-ctf.securinets.tn 9012
 
 flags:
   - Securinets{r0ckst4r_c4ll3d_1t_4_s3cur1ty_t3st_cyb3rl33k_c4ll3d_1t_tu3sd4y}

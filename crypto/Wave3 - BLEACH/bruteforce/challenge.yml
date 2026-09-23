@@ -17,7 +17,7 @@ value: 700
 
 type: dynamic
 
-connection_info: nc <VPS_IP> 1337
+connection_info: nc crypto.friendly-ctf.securinets.tn 1337
 
 extra:
   initial: 500

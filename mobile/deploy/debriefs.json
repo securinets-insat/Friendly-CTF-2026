@@ -1,0 +1,143 @@
+{
+  "1": {
+    "sha256": "c7bbbf09e85c5db535d6610c200bddc39181e286eb701684cf24f4534bd4d379",
+    "debrief": {
+      "whatYouDid": "You read the app's own paperwork. No exploit, no device, no cleverness — just the observation that everything an app ships with travels with it, in the open, to every phone that installs it.",
+      "intendedRoute": "Unpack with apktool and go through res/values. The value was split so a single grep wouldn't hand it over in one piece, which is exactly as much protection as splitting a password across two sticky notes.",
+      "inTheWild": "API keys, staging credentials and internal URLs get shipped in resource files constantly. Attackers scrape app stores for exactly this.",
+      "theFix": "Nothing secret goes in the client. If the app genuinely needs a credential, it fetches it at runtime against an authenticated session — and even then it never persists it anywhere readable."
+    }
+  },
+  "2": {
+    "sha256": "44421aa5bfbf8039b9938ecbb58dda1abe34bbaace0d68b964c53f7da587f909",
+    "debrief": {
+      "whatYouDid": "You found the key sitting next to the lock. The ciphertext was real and the algorithm was fine — but a key that ships inside the thing it protects isn't a key, it's a formality.",
+      "intendedRoute": "Decompile with jadx, find the cipher setup, and lift the key and IV straight out of the class. Feed all three into CyberChef.",
+      "inTheWild": "This is the single most common crypto finding in mobile reviews. Teams reach for AES believing the algorithm is the hard part; key management is the hard part, and the client is the worst place to do it.",
+      "theFix": "Keys belong in the Android Keystore, generated on-device and non-exportable — or server-side, where the client never sees them at all."
+    }
+  },
+  "3": {
+    "sha256": "829109944bc6e8e39298f05dc5c33d27cd5f5fd04214a55a514e4e5866229884",
+    "debrief": {
+      "whatYouDid": "You listened to the app's internal monologue. That value is never drawn on a screen and never leaves over the network — the single place it surfaces is a debug line somebody forgot to delete, in a stream the whole device can read. Nothing you could click would have shown it to you. You had to be watching while the app talked.",
+      "intendedRoute": "Clear logcat, drive the feature, and watch the output. The value goes past in plain text.",
+      "inTheWild": "Session tokens, OTPs and full request bodies end up in production logs routinely. On a rooted or compromised device, any app reading logs harvests them.",
+      "theFix": "Strip debug logging from release builds — ProGuard/R8 rules that remove Log calls, and never log anything derived from credentials."
+    }
+  },
+  "4": {
+    "sha256": "14124f06b7b2114e67b4e68a15f9412244ae3634f63a7f1fb325b5a6f058abc3",
+    "debrief": {
+      "whatYouDid": "You went looking in the app's private directory — and found that 'private' means other apps can't read it, not that it's protected. Anyone with adb, a rooted device, or a backup got there with you.",
+      "intendedRoute": "Use the feature so the rows get written. Then adb shell onto the device, su to root, and walk /data/data/tn.securinets.ctf — that one directory is everything the app keeps to itself. Look around it rather than straight at one file: databases/ holds what it cached, shared_prefs/ holds what it remembered. Open the database with sqlite3 and read the tables out.",
+      "routeSnippet": "cd /data/data/tn.securinets.ctf/databases\nsqlite3 app_data.db\nsqlite> .tables\nsqlite> select * from settings;",
+      "inTheWild": "Auth tokens and cached PII in plaintext SQLite is a standard finding. Device theft and malware both turn it into a real compromise.",
+      "theFix": "Encrypt at rest with SQLCipher or EncryptedSharedPreferences, keyed from the Keystore — and cache as little as you can get away with."
+    }
+  },
+  "5": {
+    "sha256": "520dc03706490bfda15e115dc03fb54528327b67b523ba904485e61163efba1f",
+    "debrief": {
+      "whatYouDid": "You stopped answering the question and started rewriting it. Because your input was concatenated straight into the query, the quote you typed ended the string and everything after it became instruction rather than data.",
+      "intendedRoute": "Close the quote, append a condition that's always true, and comment out the rest so the password check never runs.",
+      "routeSnippet": "username: ' OR '1'='1' --",
+      "inTheWild": "SQL injection is decades old and still ships. On mobile it hides in local databases, where developers assume nobody is looking.",
+      "theFix": "Parameterised queries, always. The database must receive your input as a value, never as part of the sentence."
+    }
+  },
+  "6": {
+    "sha256": "ce068bf97d989d7a408c5670f63509d96857cff07c3e0c1b04da412342ccc547",
+    "debrief": {
+      "whatYouDid": "You stacked two mistakes. The first: a door that was never meant to be on the street. The reasoning was simple — if nothing points at that screen, nobody reaches it. But exported=\"true\" plus an intent-filter is an open invitation to the entire operating system; leaving something off your own menu isn't access control, it's tidiness. The second, once inside: unescaped input reaching a WebView — ordinary XSS — made to matter by addJavascriptInterface, which punches a hole straight through the browser sandbox into live app code, so any script that ends up in that WebView can call the app's own methods.",
+      "intendedRoute": "Pull the manifest and look for an activity that's declared and exported but never referenced by a startActivity() anywhere in the code. That mismatch is the tell — fire it directly. Then read the activity in jadx: the bridge's JS name and the exposed method name are both right there, nothing to guess. Inject a script that calls it and shows you the result.",
+      "routeSnippet": "adb shell am start -a android.intent.action.VIEW \\\n  -d \"secureapp://internal\"\n\n<script>alert(Android.getInternalToken())</script>",
+      "inTheWild": "Hidden admin panels and debug menus ship in production constantly, still exported, still one command away — and any WebView rendering content you don't fully control (chat messages, server-driven HTML, deep-link parameters) hands the same power to whoever controls the content.",
+      "theFix": "exported=\"false\" unless something outside the app genuinely needs to launch it, guarded by a signature-level permission if it does. And escape everything before it reaches a WebView — don't register a JavaScript interface unless you must, and if you do, expose the narrowest possible method, never anything that returns a secret."
+    }
+  },
+  "16": {
+    "sha256": "e1978bfceefccefe5c212edb329568291464b21ac76eaa633e1aff696c21aed8",
+    "debrief": {
+      "whatYouDid": "You called a function the app had stopped calling. No patching, no hooking, no changing a single instruction — the code was already there and already willing. Dead code is not disabled code; it is code with the caller removed, and a caller is a thing you can supply.",
+      "intendedRoute": "Pull the .so out of the APK and list its exported symbols — sirr_unseal is right there, unstripped and plainly named. Attach Frida, resolve it in the loaded module, wrap it in a NativeFunction with the matching signature, allocate the archived note's bytes and pass them in. It hands back the plaintext, because that is its job and it was never told to stop.",
+      "routeSnippet": "const p = Module.getExportByName('libvaultcrypto.so', 'sirr_unseal');\nconst unseal = new NativeFunction(p, 'pointer', ['pointer', 'int']);\nconst blob = [0xe2, 0x9d, /* ...the archived note's bytes... */];\nconst buf = Memory.alloc(blob.length);\nbuf.writeByteArray(blob);\nconsole.log(unseal(buf, blob.length).readCString());",
+      "inTheWild": "Deprecated native entry points outlive the UI that used them all the time — old export paths, debug helpers, migration routines for a format nobody writes any more. They keep their full privileges and stop getting reviewed, because as far as the team is concerned the feature was removed. It was removed from the menu.",
+      "theFix": "If a routine is no longer meant to be reachable, delete it from the build rather than orphaning it. Compile it out behind a flag, keep internal symbols out of the dynamic table with a visibility default of hidden and an explicit export list, and treat anything still exported as part of the app's public attack surface — because it is."
+    }
+  },
+  "8": {
+    "sha256": "48bfd81aa433c4d19eac375c60ac981fec4661487615b6f800e9bf0e79008c2e",
+    "debrief": {
+      "whatYouDid": "You skipped a door that was never locked. BiometricPrompt reported success and the app took its word for it — so hooking the callback, or just calling the gated function directly, gets you the same result the fingerprint would have.",
+      "intendedRoute": "Attach with Frida or objection, hook onAuthenticationSucceeded and force it to fire — or bypass the ceremony entirely and invoke the method it guards.",
+      "inTheWild": "Most biometric implementations in shipping apps are exactly this: a boolean gate around a function call, trivially removable on any device the attacker controls.",
+      "theFix": "Bind the prompt to a CryptoObject backed by a Keystore key created with setUserAuthenticationRequired(true). Then the OS and secure hardware enforce it below the app layer, and there's no boolean left to flip."
+    }
+  },
+  "9": {
+    "sha256": "9789f0db46ef2cc0be8329967b28a4937f98b4bfea95493547691776ecf31537",
+    "debrief": {
+      "whatYouDid": "You didn't break anything. You just listened. Cleartext HTTP means every hop between this phone and that server — a shared Wi-Fi access point, a compromised router, anyone at all — reads the exact same bytes the legitimate server response contains.",
+      "intendedRoute": "Proxy the traffic, log in through the app, and read the login response. Nothing about it is hidden from the wire.",
+      "inTheWild": "Cleartext endpoints still ship, usually alongside HTTPS ones the team forgot to retire. One forgotten HTTP fallback undoes every TLS certificate the rest of the app carries.",
+      "theFix": "cleartextTrafficPermitted=\"false\" for every domain, no exceptions, enforced at the network security config level so a single missed call site can't quietly regress it."
+    }
+  },
+  "10": {
+    "sha256": "b58e5bece5d6fac9ee26c13c0703d124d782aacf2b7d99a2dd0498258f6c06ff",
+    "debrief": {
+      "whatYouDid": "You proved the server checks *who you are* but never *what you're allowed to see*. Authentication was implemented; authorization wasn't. Swapping the identifier was enough.",
+      "intendedRoute": "Proxy the traffic, install the CA so HTTPS is readable, find the profile request, and change the id. There is no list of valid ids anywhere in the app — try nearby numbers and see what comes back.",
+      "inTheWild": "Broken object level authorization is the number one item in the OWASP API Security Top 10 and the most common serious finding in mobile assessments, full stop.",
+      "theFix": "Every request for a specific record must independently verify server-side that the authenticated identity owns it. Never trust a client-supplied id on its own."
+    }
+  },
+  "11": {
+    "sha256": "1ad27b5b1c12c972597d0df911c1ffb5447c95512c1800902ae51bde29eb1622",
+    "debrief": {
+      "whatYouDid": "Trusting a CA gets a proxy past the question 'is this certificate legitimate?' Pinning asks a different question — 'is this the *one* certificate I was told to expect?' — and no CA install answers that. You had to make the app stop asking, at runtime, with a hook.",
+      "intendedRoute": "Attach Frida or objection and disable the pinning check (`CertificatePinner`, a library call, not app-authored code) before the request goes out. The CA you already trusted is still doing its job underneath — pinning was the only thing standing in the way.",
+      "inTheWild": "Pinning stops casual MITM but nothing that can run code on the device itself — which is every real attacker on a rooted phone, and every security researcher with Frida.",
+      "theFix": "Pinning is a real hardening layer, not the only one. Combine it with root/tamper detection and treat any client-side check as raising the bar, never as the actual enforcement boundary."
+    }
+  },
+  "12": {
+    "sha256": "5a06af4c11a4e61503d04ea3a33a7442341f3817009653f69d6c3dae8295d31c",
+    "debrief": {
+      "whatYouDid": "You rewrote your own credentials and the server accepted them. A JWT is only as trustworthy as the verification step — and a signature nobody validates is decoration.",
+      "intendedRoute": "Decode the token, change the claim that decides what you're allowed to do, neutralise the signature, and replay the request.",
+      "inTheWild": "alg:none and unverified signatures still appear in production APIs, usually because a library was configured to decode rather than verify.",
+      "theFix": "Verify every token server-side against a fixed algorithm and a secret the client never sees. Reject alg:none outright, and never derive authorization from a claim you haven't cryptographically confirmed."
+    }
+  },
+  "13": {
+    "sha256": "ea5ae17d5d3bdcfecab1abde4d4090c7bbffb37a617d6eed5cd47d24ab5bb09d",
+    "debrief": {
+      "whatYouDid": "You queried somebody's production database from a terminal, unauthenticated, because the read rule was still set to true from the day it was created — and then you cracked a password out of what came back.",
+      "intendedRoute": "Find the database URL in the packaged config, then append .json and request it directly. No app required, no credentials, no account. Pull the customer table, find the record you were asked about, and take its password_hash. It is an unsalted SHA-256, so a wordlist or an online lookup returns the plaintext in seconds. Exactly one account in the table has a password weak enough to fall, which is the point.",
+      "routeSnippet": "curl -s https://<project>.firebasedatabase.app/.json -o dump.json\njq -r '.customers[] | select(.last_name==\"...\") | .password_hash' dump.json\nhashcat -m 1400 -a 0 hash.txt rockyou.txt",
+      "inTheWild": "Open Firebase instances get found by automated scanners constantly, and have leaked medical records, chat histories and full user tables from real production apps. The second half is what makes those leaks expensive: an unsalted SHA-256 of a password is not storage, it is a short delay, and people reuse passwords across services. One dump becomes logins somewhere else.",
+      "theFix": "Two fixes, and you need both. Write real security rules before you ship — deny by default, then grant per-path access tied to an authenticated uid; the console has a simulator for exactly this. And never store passwords under a fast general-purpose hash. Use bcrypt, scrypt or Argon2, which are deliberately slow and individually salted, so a stolen table cannot be attacked wholesale."
+    }
+  },
+  "14": {
+    "sha256": "86183d6f784468ea483554ded81eb59334ffaf194fd48ab4e6deb22bad80921c",
+    "debrief": {
+      "whatYouDid": "You caught a passenger. A library bundled alongside the real dependencies was collecting device identifiers and shipping them to a third party — with the app's permissions, inside the app's own traffic.",
+      "intendedRoute": "Proxy the app and look for a host that isn't the backend. Trace the call in jadx and notice the class lives outside the app's own package namespace entirely.",
+      "inTheWild": "Compromised and over-collecting SDKs are a recurring supply chain problem. You inherit the behaviour of everything you bundle, and your users blame you, not the vendor.",
+      "theFix": "Audit what you ship. Pin dependency versions, review what each SDK actually transmits, and treat a third-party library's network access as part of your own privacy surface."
+    }
+  },
+  "15": {
+    "sha256": "43c75c191242b816fbaa6ce8ad7e19ad195c9e4cfbc05b269106dd1ad530126f",
+    "debrief": {
+      "whatYouDid": "You took the app apart, changed its mind, put it back together and signed it as your own. Every client-side check is ultimately a suggestion — the attacker owns the device, the binary and the runtime.",
+      "intendedRoute": "Two routes, both valid. Patch the smali branch, rebuild with apktool and re-sign with apksigner — Android will refuse to install it otherwise, which is the part that teaches you what signatures are for. Or hook the check with Frida and never touch the file at all.",
+      "routeSnippet": "apksigner sign --ks my.keystore patched.apk\nadb install -r patched.apk",
+      "inTheWild": "Paid features, ad removal, subscription gates and jailbreak detection all get bypassed this way. Anything of value enforced only on the client is enforced nowhere.",
+      "theFix": "Entitlement decisions belong on a server that verifies a receipt. Client-side checks are a speed bump for casual users — useful, but never mistake them for enforcement."
+    }
+  }
+}

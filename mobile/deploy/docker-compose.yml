@@ -1,0 +1,23 @@
+# Mobile-track backend for Securinets Friendly CTF.
+# Run from this directory: docker compose up -d --build
+# Requires ./flags.json (gitignored, never committed). See DEPLOY.md.
+services:
+  mobile-backend:
+    build: .
+    image: securinets-ctf/mobile-backend
+    container_name: mobile-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+      - "8443:8443"
+      - "9090:9090"
+    environment:
+      CTF_FLAGS: /run/secrets/flags.json
+    volumes:
+      - ./flags.json:/run/secrets/flags.json:ro
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 200
+    mem_limit: 256m
+    cpus: 0.5

@@ -6,6 +6,36 @@ description: |-
 
   Nobody who still works there remembers the code. The door does, and it checks yours against it every time you try.
 
+  ---
+
+  This is the first rung of the reverse-engineering ladder, and it assumes you have never opened a binary before. Everything below is free. You will use the same tools on every other challenge in this category, so the time you spend installing one of them now is not spent on this challenge alone.
+
+  **Running it.** `doorman` is a 64-bit Linux ELF. Make it executable and start it:
+
+  ```
+  chmod +x doorman
+  ./doorman
+  ```
+
+  On Windows, use WSL or any Linux VM. `file doorman` will tell you what you are holding before you run anything.
+
+  **Reading it without running it — static analysis.** The program on disk is a complete description of what it will do. These read it for you:
+
+  - `strings doorman` — the cheapest possible first look. Prints the readable text baked into the file. Thirty seconds, always worth it, rarely the whole answer.
+  - `objdump -d doorman`, `readelf -a doorman` — disassembly and headers, already installed on most Linux systems.
+  - **Ghidra** — free, open source, from the NSA: <https://ghidra-sre.org>. A real decompiler: it turns machine code back into something that reads like C. If you want to install one serious tool, install this one.
+  - **IDA Free** — <https://hex-rays.com/ida-free>. The industry standard disassembler. The free edition includes the x86-64 decompiler.
+  - **Cutter** (<https://cutter.re>) or **Binary Ninja Free** — lighter alternatives with the same idea.
+  - **dogbolt.org** — <https://dogbolt.org>. Upload the binary in your browser and it runs several decompilers side by side, no install at all. A good way to see how the same function looks through different eyes when one tool's output is hard to follow.
+
+  **Watching it work — dynamic analysis.** A running process knows things the file on disk does not show you:
+
+  - `ltrace ./doorman` — prints the library functions the program calls, along with their arguments.
+  - `strace ./doorman` — the same idea, for system calls.
+  - `gdb ./doorman` — stop the program mid-run and look around. Install **pwndbg** or **GEF** on top of it; plain gdb is unfriendly and neither plugin is optional once you are used to them.
+
+  You do not need all of these. Pick one from each group and get comfortable with it.
+
   Linux x86-64. Read `NOTICE.txt` before you start.
 
 type: dynamic

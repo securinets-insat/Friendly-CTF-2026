@@ -12,7 +12,7 @@ extra:
   function: linear
   initial: 400
   decay: 5
-  minimum: 100
+  minimum: 150
 
 connection_info: nc pwn.securinets.tn 9004
 

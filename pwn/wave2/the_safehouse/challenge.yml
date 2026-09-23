@@ -14,7 +14,7 @@ extra:
   decay: 5
   minimum: 100
 
-connection_info: nc pwn.securinets.tn 9054
+connection_info: nc pwn.friendly-ctf.securinets.tn 9054
 
 flags:
   - Securinets{f1x3d_4ddr355_1s_4lw4ys_th3_s4f3h0us3}

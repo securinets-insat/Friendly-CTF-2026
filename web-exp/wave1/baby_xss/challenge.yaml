@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 100
   
-connection_info: 
+connection_info: https://baby-x55.web1.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{w3lcome_t0_cr0ss_s1te_scr1p71ng}

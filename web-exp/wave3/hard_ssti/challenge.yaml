@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 200
   
-connection_info: 
+connection_info: https://tik-tak.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{1nter3sting_ssti_1n_3rror_7emplate}

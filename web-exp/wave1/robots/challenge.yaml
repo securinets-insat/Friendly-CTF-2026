@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 100
   
-connection_info: 
+connection_info: https://robots.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{hum4n_4r3_4lw4ys_sm4rt3r_th4n_r0b0ts}

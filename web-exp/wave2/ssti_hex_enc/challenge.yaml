@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 150
   
-connection_info: 
+connection_info: https://bio.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{ssti_w1th_h3x_3ncod1ng_byp4ss}

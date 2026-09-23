@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 150
   
-connection_info: 
+connection_info: https://w3ak.web1.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{n3ver_use_w3ak_jwt_secre7}

@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 100
   
-connection_info: 
+connection_info: https://1dor.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{1d0r_1s_4n_1mp0rt4nt_v3ct0r_0f_w3b_3xpl01t4t10n}

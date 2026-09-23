@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 200
   
-connection_info: 
+connection_info: https://crazy-notes.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{s0me_fun_f0r_xss_f4ns}

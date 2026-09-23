@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 200
   
-connection_info: 
+connection_info: http://40.66.40.8:5006
 
 flags:
     - Securinets{d0cker_c0mpse_d3ta1ls_4r3_imp0rtant}

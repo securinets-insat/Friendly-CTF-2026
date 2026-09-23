@@ -3,9 +3,8 @@ version: '3.8'
 services:
   app:
     build: .
-    container_name: magic_store_app
     ports:
-      - "5015:80"
+      - 80
     environment:
       - MONGO_URI=mongodb://mongo:27017
     networks:

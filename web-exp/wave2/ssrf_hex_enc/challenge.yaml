@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 150
   
-connection_info: 
+connection_info: https://fetcher.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{s3rver_s1de_requ3st_f0rg3ry!!!!}

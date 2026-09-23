@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 100
   
-connection_info: 
+connection_info: https://baby-sqli.web1.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{sql_1njection_1s_4_seri0us_vuln3rabili7y}

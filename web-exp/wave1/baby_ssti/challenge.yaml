@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 100
   
-connection_info: 
+connection_info: https://baby-ssti.web1.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{3asy_serv3r_s1de_templ4te_inj3ct10n}

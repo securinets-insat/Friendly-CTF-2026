@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 200
   
-connection_info: 
+connection_info: https://vault.web1.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{no7_4_fan_of_c0mm4nd_subs7itut1on}

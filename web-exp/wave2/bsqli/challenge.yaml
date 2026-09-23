@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 150
   
-connection_info: 
+connection_info: https://blind.web1.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{bl1nd_sql_inj3cti0n_n0t_7hat_h4rd}

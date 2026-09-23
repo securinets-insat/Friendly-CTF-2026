@@ -9,7 +9,7 @@ extra:
   decay: 5
   minimum: 150
   
-connection_info: 
+connection_info: https://more-than-products.web2.friendly-ctf.securinets.tn
 
 flags:
     - Securinets{uni0n_b4s3d_sql_inj3cti0n_4lways_funny}

@@ -25,6 +25,6 @@ flags:
   - "Securinets{sh1pp3d_1n_th3_0p3n}"
 
 files:
-  - attachments/app-release.apk
+  - attachments/fadigattack.apk
 
 version: "0.1"

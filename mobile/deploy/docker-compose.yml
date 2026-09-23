@@ -13,6 +13,10 @@ services:
       - "9090:9090"
     environment:
       CTF_FLAGS: /run/secrets/flags.json
+    # The container runs as uid 999, so the mounted flags file must be
+    # readable by it:  sudo chown 999:999 flags.json && sudo chmod 400 flags.json
+    # Owned by the deploying user instead, every service dies on a
+    # PermissionError that only shows up in the container logs.
     volumes:
       - ./flags.json:/run/secrets/flags.json:ro
     read_only: true

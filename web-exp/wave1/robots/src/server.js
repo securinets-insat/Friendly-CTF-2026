@@ -3,7 +3,7 @@ const path = require('path');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const secret = crypto.randomBytes(24).toString('hex');
-const ADMIN_TOKEN = jwt.sign({ role: 'admin' }, secret, { expiresIn: '1h' });
+const ADMIN_TOKEN = jwt.sign({ role: 'admin' }, secret, { expiresIn: '72h' });
 const FLAG = process.env.FLAG || 'Securinets{redacted}';
 const app = express();
 

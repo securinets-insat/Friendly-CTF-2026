@@ -1,0 +1,31 @@
+name: "Broken Lock"
+author: "fadigaa"
+category: "Reverse Engineering"
+description: |-
+  The maintenance console for a Meridian field unit refuses to open without a valid vendor licence.
+
+  Meridian went under in March. There is nobody left to issue one, and no licence you can write will satisfy the check. The console is still on the bench in front of you.
+
+  Linux x86-64. Read `NOTICE.txt` before you start.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 250
+  decay: 10
+  minimum: 100
+
+connection_info:
+
+flags:
+  - "Securinets{0n3_byt3_1s_4ll_1t_t00k_c93f}"
+
+tags:
+  - Linux
+  - Patching
+
+files:
+  - attachments/lock
+  - attachments/NOTICE.txt
+
+version: "0.1"

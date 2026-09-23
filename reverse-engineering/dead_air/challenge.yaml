@@ -1,0 +1,33 @@
+name: "Dead Air"
+author: "fadigaa"
+category: "Reverse Engineering"
+description: |-
+  Meridian's field units checked in with a depot relay every hour. The depot is gone and the relay host with it, so this client has been talking to nobody for months.
+
+  It will not tell you what it wants. It will tell you how far it got, if you are watching it closely enough to notice the difference between the ways it can fail.
+
+  Runs on Linux x86-64. Nothing it needs is privileged, so you should not need root to stand anything up for it.
+
+  Read `NOTICE.txt` before you start.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 350
+  decay: 12
+  minimum: 150
+
+connection_info:
+
+flags:
+  - "Securinets{4nsw3r_th3_c4ll_y0urs3lf_1e7d}"
+
+tags:
+  - Linux
+  - Network
+
+files:
+  - attachments/relay
+  - attachments/NOTICE.txt
+
+version: "0.1"

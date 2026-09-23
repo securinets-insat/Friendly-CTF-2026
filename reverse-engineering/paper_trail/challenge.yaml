@@ -1,0 +1,31 @@
+name: "Paper Trail"
+author: "fadigaa"
+category: "Reverse Engineering"
+description: |-
+  Someone in Meridian's records office exported the sealed case files before the office was cleared out. This is the export tool that went with them, and it wants the archive passphrase.
+
+  The download is around 10 MB for a program that prints four lines. It is not corrupt. That is the shape of the thing you were given, and it is worth asking why it is that size.
+
+  Linux x86-64. Read `NOTICE.txt` before you start.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 250
+  decay: 10
+  minimum: 100
+
+connection_info:
+
+flags:
+  - "Securinets{unp4ck_th3_pyth0n_4nd_r34d_1t_2d8b}"
+
+tags:
+  - Linux
+  - Python
+
+files:
+  - attachments/paper_trail
+  - attachments/NOTICE.txt
+
+version: "0.1"

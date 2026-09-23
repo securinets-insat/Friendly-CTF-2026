@@ -1,0 +1,28 @@
+name: "Chahiba"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  Chahiba is my beloved car.
+  It may not look like much, but she is really fast.
+
+  Unfortunately, speed comes with a price… and Chahiba has collected quite a few tickets along the way.
+
+  How much do I have to pay for all the pending speed tickets?
+type: dynamic
+extra:
+  function: linear
+  initial: 300
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{0}
+
+tags:
+  - OSINT
+
+files:
+  - chahiba.png
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Numero de telefono"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  Our surveillance team caught this audio during a stakeout. The suspect was on a call with someone he only refers to as "the boss" — and at one point, he pauses mid-conversation to punch in a number on his keypad.
+  
+  We couldn't make out the digits by ear. See if you can recover them.
+type: dynamic
+extra:
+  function: linear
+  initial: 400
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{55808439}
+
+tags:
+  - OSINT
+
+files:
+  - secret_number.wav
+
+version: "0.1"

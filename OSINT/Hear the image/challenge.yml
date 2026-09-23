@@ -1,0 +1,23 @@
+name: "Hear the image"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  We intercepted this audio file during a routine sweep, but it just sounds like static. Our analysts think there's more to it than meets the ear — maybe it's something you need to see rather than hear.
+type: dynamic
+extra:
+  function: linear
+  initial: 400
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{CAN_YOU_SEE_THE_SOUND?}
+
+tags:
+  - OSINT
+
+files:
+  - intercepted.wav
+
+version: "0.1"

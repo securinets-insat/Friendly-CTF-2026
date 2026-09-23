@@ -1,0 +1,32 @@
+name: "⚽"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  The player in the card is your starting point.
+
+  After scoring his first goal for his prime club, he posted a picture celebrating with two other players.
+  Who are they?
+
+  Player: Player in the card
+  PlayerR: Player on his right
+  PlayerL: Player on his left
+
+  Securinets{Player_PlayerR_PlayerL}
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{WissemBenYedder_Silva_Onyekuru}
+
+tags:
+  - OSINT
+
+files:
+  - pic.png
+
+version: "0.1"

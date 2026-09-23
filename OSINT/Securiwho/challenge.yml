@@ -1,0 +1,24 @@
+name: "Securiwho?"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  Lets see how much you know about us?
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{Y0u_4r3_0n3_0f_u5_n0w}
+
+tags:
+  - OSINT
+
+files:
+  - 
+
+version: "0.1"

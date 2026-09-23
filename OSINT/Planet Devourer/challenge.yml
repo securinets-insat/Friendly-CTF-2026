@@ -1,0 +1,23 @@
+name: "Planet Devourer"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  To find the flag, you need to act like a planet.
+type: dynamic
+extra:
+  function: linear
+  initial: 200
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securients{Cut3_bu7_p5ych0}
+
+tags:
+  - OSINT
+
+files:
+  -PlanetDevourer.png
+
+version: "0.1"

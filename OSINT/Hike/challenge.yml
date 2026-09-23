@@ -1,0 +1,31 @@
+name: "Lost in the Mountains"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  My friend and I went hiking in the mountains when things took an unexpected turn—we got lost.
+
+  We managed to take a photo before losing our way, but there was no signal to call for help. All we had left was the picture and the landscape around us.
+
+  Can you figure out where we are and find our exact coordinates?
+
+  Flag format: Securinets{latitude,longitude}
+
+type: dynamic
+
+extra:
+  function: linear
+  initial: 350
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{34.1344182,-118.3219877}
+
+tags:
+  - Geolocation
+
+files:
+  - hike.png
+
+version: "0.1"

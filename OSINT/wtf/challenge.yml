@@ -1,0 +1,23 @@
+name: "WTF"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  What is this gibberish?
+type: dynamic
+extra:
+  function: linear
+  initial: 300
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{Th1s_r3ally_fuck3d_my_br41n}
+
+tags:
+  - OSINT
+
+files:
+  - gibberish.txt
+
+version: "0.1"

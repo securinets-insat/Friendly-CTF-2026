@@ -1,0 +1,23 @@
+name: "Discord 1"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+
+  I’ve been a gamer since birth. Can you figure out who my favorite video game champion is? But I don’t want their name… I want their nickname.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 400
+  decay: 5
+  minimum: 50
+
+flags:
+  - Securinets{The_Hand_Of_Noxus}
+
+tags:
+  - OSINT
+
+
+version: "0.1"

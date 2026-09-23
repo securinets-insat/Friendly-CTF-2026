@@ -1,0 +1,22 @@
+name: "Discord L2"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+
+  Last year, OSINT was wild. I managed to solve every challenge and even put together a writeup documenting the whole journey.
+type: dynamic
+extra:
+  function: linear
+  initial: 300
+  decay: 5
+  minimum: 50
+
+flags:
+  - Secuirnets{D1d_y0u_l1ke_th3_wr1t3up?}
+
+tags:
+  - OSINT
+
+
+version: "0.1"

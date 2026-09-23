@@ -1,0 +1,34 @@
+name: "Trailhead"
+author: "securinets"
+category: "Forensics"
+description: |-
+  There is no laptop to image this time — the victim is an identity. Our tenant flagged
+  something during the night but the analyst on call cleared it as noise. Three logs were
+  exported for review:
+
+  - `entra_signins.json`  — Microsoft Entra ID sign-in logs
+  - `cloudtrail.json`     — AWS CloudTrail management events
+  - `s3_access.log`       — S3 server access logs
+
+  Something was taken. Reconstruct how, and recover what left the building.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 1000
+  decay: 5
+  minimum: 300
+connection_info: 
+
+flags:
+  - "Securinets{cl0udtr41l_t1m3l1n3_st1tch3d}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/cloudtrail.json
+  - attachments/entra_signins.json
+  - attachments/s3_access.log
+
+version: "0.1"

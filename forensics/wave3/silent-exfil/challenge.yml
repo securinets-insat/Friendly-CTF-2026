@@ -1,0 +1,27 @@
+name: "Silent Exfil"
+author: "securinets"
+category: "Forensics"
+description: |-
+  Data left this network without a single file transfer showing up in the logs. All we have
+  is a packet capture from the segment. Whatever was taken, it went out quietly.
+
+  Reconstruct it.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 1000
+  decay: 5
+  minimum: 300
+connection_info: 
+
+flags:
+  - "Securinets{0rd3r_th3n_st3g0_th3n_x0r}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/exfil.pcapng
+
+version: "0.1"

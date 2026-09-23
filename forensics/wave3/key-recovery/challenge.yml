@@ -1,0 +1,33 @@
+name: "Key Recovery"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A sync agent on a workstation uploaded a confidential export to an outside host over TLS 1.3.
+  We captured the traffic, but it's encrypted end to end. Before the process was killed we
+  grabbed a dump of it.
+
+  Recover what was uploaded.
+
+  Files:
+  - `traffic.pcapng` — the captured network traffic (TLS 1.3)
+  - `agent.core`     — a process memory dump of the sync agent
+
+type: dynamic
+extra:
+  function: linear
+  initial: 1000
+  decay: 5
+  minimum: 300
+connection_info: 
+
+flags:
+  - "Securinets{tls_k3ys_l1v3_1n_m3m0ry}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/agent.core
+  - attachments/traffic.pcapng
+
+version: "0.1"

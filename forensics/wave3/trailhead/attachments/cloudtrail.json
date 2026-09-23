@@ -1,0 +1,5744 @@
+{
+ "Records": [
+  {
+   "eventTime": "2019-06-14T00:04:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:08:25Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:09:11Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:12:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:21:31Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:22:32Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:24:58Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:30:38Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T00:45:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:07:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:10:45Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole", 
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:10:47Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:13:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:20:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:22:07Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:29:55Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:31:30Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:31:49Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:34:08Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:41:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T01:59:20Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:06:31Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:26:58Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:27:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "45.83.220.14",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/AWSReservedSSO_Admin/mkedri@agilogix.tn",
+    "userName": "mkedri",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {},
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:27:24Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:27:58Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateAccessKey",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "45.83.220.14",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/AWSReservedSSO_Admin/mkedri@agilogix.tn",
+    "userName": "mkedri",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "userName": "svc-backup"
+   },
+   "responseElements": {
+    "accessKey": {
+     "accessKeyId": "AKIA5JQATTACKER99Z",
+     "status": "Active",
+     "userName": "svc-backup"
+    }
+   },
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:30:07Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:32:56Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:34:16Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:35:13Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:36:13Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:36:22Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:36:53Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:38:01Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:45:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:49:11Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T02:53:47Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:00:28Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:11:14Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:15:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:18:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:20:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:21:14Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:25:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:36:19Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:37:23Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T03:40:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:12:43Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:24:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:26:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:37:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:42:46Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:54:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:55:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T04:56:35Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T05:12:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T05:18:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T05:34:05Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T05:53:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T05:58:08Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:02:01Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:02:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:02:29Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:03:25Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:03:31Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:03:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:14:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:23:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:33:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:34:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:40:24Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:42:20Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:46:27Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:47:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:49:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:50:05Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:50:08Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T06:52:25Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:07:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:09:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:19:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:22:23Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:27:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:28:30Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:31:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:34:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:35:08Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:40:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:42:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T07:48:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:02:57Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:04:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:19:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:21:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:25:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:27:39Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:36:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:43:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:46:49Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T08:47:39Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:01:46Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:05:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:08:43Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:15:43Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:16:22Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:18:52Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:19:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:24:57Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:25:19Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:27:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:30:23Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:32:16Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:33:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:34:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:41:09Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:46:50Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:49:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:59:52Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T09:59:56Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:00:09Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:08:31Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:10:29Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:14:10Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:14:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:21:30Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:21:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:25:14Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:25:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:25:30Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:27:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:38:36Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:38:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:40:52Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:44:47Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:51:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T10:54:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:01:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:03:43Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:05:58Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:06:14Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:11:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:16:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:23:23Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:30:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:32:18Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:38:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:38:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:40:50Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T11:50:23Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:05:09Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:13:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:13:45Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:18:26Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:19:23Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:21:16Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:26:22Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:31:36Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:33:00Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:36:07Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:41:24Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:50:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:52:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:55:36Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T12:55:58Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:02:43Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:12:32Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:15:45Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:26:56Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:27:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:36:01Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:37:40Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:43:02Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:46:22Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:47:54Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:48:16Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:56:18Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T13:57:50Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:04:31Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:07:18Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:09:44Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:21:39Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:26:07Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:27:02Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:37:11Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:46:27Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:47:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:52:45Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T14:55:39Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:25:36Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:25:38Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:33:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:33:27Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:40:49Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:45:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:54:19Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T15:58:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:00:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:01:49Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:01:50Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:02:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:02:24Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:11:49Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:19:11Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:19:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:27:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:35:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:43:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:50:44Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T16:56:18Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:02:16Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:16:37Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:17:33Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:27:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:27:32Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:35:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:36:26Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:46:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:48:27Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:52:19Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:56:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T17:58:11Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:05:37Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:10:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:16:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:26:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:31:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:34:13Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:34:14Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:35:46Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:42:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:43:05Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:43:47Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:44:49Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:45:13Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:49:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:51:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:54:25Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:56:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T18:57:59Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:00:02Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:00:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:08:54Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:10:25Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:23:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:26:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:30:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:37:02Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:42:24Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:56:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:58:24Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T19:58:48Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:05:47Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:13:45Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:19:39Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:32:57Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:38:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:40:16Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:44:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:45:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T20:57:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:09:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:14:54Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:18:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:24:54Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:28:17Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:31:37Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:47:57Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:48:35Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:49:13Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:49:15Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:49:34Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:57:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:57:46Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T21:58:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:00:50Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:01:01Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:02:39Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:02:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:02:52Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:05:42Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:14:05Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:16:30Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:21:44Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:23:07Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:34:37Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:37:32Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:45:07Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:51:19Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T22:51:38Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:01:21Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:08:08Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:11:29Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:13:55Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:14:45Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:16:41Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:16:50Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:25:06Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:34:14Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:35:51Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:42:12Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:53:38Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  },
+  {
+   "eventTime": "2019-06-14T23:55:36Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-1",
+   "sourceIPAddress": "10.0.42.7",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::209384756012:assumed-role/backup-runner/nightly",
+    "userName": "svc-backup",
+    "accountId": "209384756012"
+   },
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::209384756012:role/backup-runner",
+    "roleSessionName": "nightly"
+   },
+   "responseElements": null,
+   "userAgent": "aws-cli/2.4.6 Python/3.9.7"
+  }
+ ]
+}

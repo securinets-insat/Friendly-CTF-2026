@@ -1,0 +1,25 @@
+name: "Too Dark"
+author: "securinets"
+category: "Forensics"
+description: |-
+  An all-black image. Or is it?
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{bl4ck_0n_bl4ck_r3v34l3d}"
+
+tags:
+  - forensics
+  - stego
+
+files:
+  - attachments/midnight.png
+
+version: "0.1"

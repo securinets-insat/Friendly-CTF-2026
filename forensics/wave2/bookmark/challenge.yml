@@ -1,0 +1,25 @@
+name: "Bookmark"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A Firefox profile database. One bookmark points somewhere it shouldn't.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{br0ws3r_db_1s_just_sql1t3}"
+
+tags:
+  - forensics
+  - browser forensics
+
+files:
+  - attachments/places.sqlite
+
+version: "0.1"

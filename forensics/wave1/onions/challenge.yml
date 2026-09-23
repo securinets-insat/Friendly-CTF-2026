@@ -1,0 +1,25 @@
+name: "Onions"
+author: "securinets"
+category: "Forensics"
+description: |-
+  An intercepted string, wrapped three times over. Peel it.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{p33l_th3_3nc0d1ng_l4y3rs}"
+
+tags:
+  - forensics
+  - encoding
+
+files:
+  - attachments/message.txt
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Wrong Coat"
+author: "securinets"
+category: "Forensics"
+description: |-
+  Someone swears this is just their `notes.txt`. It doesn't open as text cleanly. Trust the bytes, not the name.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{ext3ns10ns_dont_d3f1n3_typ3}"
+
+tags:
+  - forensics
+  - file types
+
+files:
+  - attachments/notes.txt
+
+version: "0.1"

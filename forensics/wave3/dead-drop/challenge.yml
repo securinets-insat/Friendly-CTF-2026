@@ -1,0 +1,29 @@
+name: "Dead Drop"
+author: "securinets"
+category: "Forensics"
+description: |-
+  Two people who "only ever swapped holiday photos" are under suspicion. We pulled two
+  images from the exchange. Nothing in the pictures looks unusual — but nothing usually
+  does.
+
+  Find what was passed between them.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 700
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{tw0_st3g0s_0n3_ch41n}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/harbor.jpg
+  - attachments/market.png
+
+version: "0.1"

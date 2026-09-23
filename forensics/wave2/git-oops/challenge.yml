@@ -1,0 +1,25 @@
+name: "Git Oops"
+author: "securinets"
+category: "Forensics"
+description: |-
+  "I committed a credential, then removed it in the next commit. It's gone." It is not gone.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{g1t_l0g_r3m3mb3rs_4ll}"
+
+tags:
+  - forensics
+  - git
+
+files:
+  - attachments/repo.zip
+
+version: "0.1"

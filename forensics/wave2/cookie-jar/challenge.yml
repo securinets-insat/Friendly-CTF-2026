@@ -1,0 +1,28 @@
+name: "Cookie Jar"
+author: "securinets"
+category: "Forensics"
+description: |-
+  We pulled a Chromium profile off a suspect's laptop. They insist they "cleared their
+  history for good." The database might tell a different story.
+
+  > Work on a copy — opening these files with a tool that writes back can destroy what
+  > you're looking for.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 700
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{h1st0ry_l1v3s_1n_th3_w4l}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/chrome_profile.zip
+
+version: "0.1"

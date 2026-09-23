@@ -1,0 +1,55 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Length 357 >>
+stream
+BT
+/F1 14 Tf
+14 TL
+1 0 0 1 72 720 Tm
+(INTERNAL MEMO - Project Vault) Tj
+T*
+() Tj
+T*
+(Classification: RESTRICTED) Tj
+T*
+() Tj
+T*
+(The recovery passphrase for the vault is printed below.) Tj
+T*
+(Do not circulate this document outside the security team.) Tj
+T*
+() Tj
+T*
+(Recovery key: Securinets{r3d4ct10n_1s_n0t_d3l3t10n}) Tj
+T*
+ET
+0 0 0 rg
+70 618 460 18 re f
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000315 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+723
+%%EOF

@@ -1,0 +1,31 @@
+name: "Force Push"
+author: "securinets"
+category: "Forensics"
+description: |-
+  Our platform team had an incident last week. A developer committed the production
+  credentials for the logistics API, noticed about an hour later, and "removed" them —
+  rolled the branch back and force-pushed over the mistake.
+
+  Legal needs to know exactly what was exposed. We pulled the developer's local clone
+  off their laptop. The credentials are not in the repository any more.
+
+  Find them.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 700
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{g1t_r3fl0g_n3v3r_f0rg3ts}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/repo.zip
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Zip Code"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A demo Android app. The developer left a secret in the resources.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{4pk_1s_just_4_z1p_f1l3}"
+
+tags:
+  - forensics
+  - mobile
+
+files:
+  - attachments/app-release.apk
+
+version: "0.1"

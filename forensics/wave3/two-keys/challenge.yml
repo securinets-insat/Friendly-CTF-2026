@@ -1,0 +1,33 @@
+name: "Two Keys"
+author: "securinets"
+category: "Forensics"
+description: |-
+  EDR flagged a workstation, but by the time anyone looked the process was already gone from disk.
+  All that was captured is a full **RAM image**. One suspicious process is still resident.
+
+  Reverse it and recover the secret — which comes in **two halves, recovered two different ways**.
+  Concatenate them in order: `Securinets{<A>_<B>}`.
+
+  file attachement : https://drive.google.com/drive/folders/1b-7x_hSFj0jZtpPKSHPQBKEInEgoTLXL?usp=drive_link
+
+ 
+
+type: dynamic
+extra:
+  function: linear
+  initial: 1000
+  decay: 5
+  minimum: 300
+connection_info: 
+
+flags:
+  - "Securinets{sh3llc0d3_1n_h34p_run_w1th_pw_t0k3n}"
+
+tags:
+  - forensics
+  - forensics — memory
+
+files:
+  - attachments/mem.raw.zst
+
+version: "0.1"

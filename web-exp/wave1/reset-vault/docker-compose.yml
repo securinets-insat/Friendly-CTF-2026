@@ -1,0 +1,30 @@
+services:
+  app:
+    build: ./app
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MONGO_URI=mongodb://mongo:27017/resetvault
+      - CHALLENGE_FLAG=${CHALLENGE_FLAG:-}
+    depends_on:
+      - mongo
+    networks:
+      - resetvault-net
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:7
+    volumes:
+      - ./mongo/init.js:/docker-entrypoint-initdb.d/init.js:ro
+    environment:
+      - MONGO_INITDB_DATABASE=resetvault
+    networks:
+      - resetvault-net
+    restart: unless-stopped
+    # Intentionally no `ports:` mapping — mongo is only reachable
+    # from the `app` container, never from the host or players.
+
+networks:
+  resetvault-net:
+    driver: bridge

@@ -1,0 +1,25 @@
+name: "Russian Doll"
+author: "securinets"
+category: "Forensics"
+description: |-
+  An archive inside an archive inside an archive... keep going until you hit the bottom.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{unz1p_4ll_th3_w4y_d0wn}"
+
+tags:
+  - forensics
+  - archives
+
+files:
+  - attachments/doll.zip
+
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Two Faces"
+author: "securinets"
+category: "Forensics"
+description: |-
+  One file, two faces. It's an image. It's also a document. Each holds half the flag.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{0n3_f1l3_tw0_f0rm4ts}"
+
+tags:
+  - forensics
+  - polyglot
+
+files:
+  - attachments/capture.png
+
+version: "0.1"

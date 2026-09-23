@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reset Vault</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <div class="dial"></div>
+    <div>
+      <h1>Reset Vault</h1>
+      <span class="sub">Access Terminal</span>
+    </div>
+  </div>
+
+  <div class="panel" data-label="Sign In">
+    <form id="loginForm">
+      <label class="field" for="li-user">Username</label>
+      <input type="text" id="li-user" name="username" required>
+      <label class="field" for="li-pass">Password</label>
+      <input type="password" id="li-pass" name="password" required>
+      <button type="submit">Enter</button>
+    </form>
+    <p class="status" id="loginMsg"></p>
+    <a class="toggle-link" id="showForgot">Lost your combination?</a>
+  </div>
+
+  <div class="panel" data-label="New Depositor">
+    <form id="registerForm">
+      <label class="field" for="re-user">Username</label>
+      <input type="text" id="re-user" name="username" required>
+      <label class="field" for="re-pass">Password</label>
+      <input type="password" id="re-pass" name="password" required>
+      <button type="submit">Open Account</button>
+    </form>
+    <p class="status" id="registerMsg"></p>
+  </div>
+
+  <div class="panel" id="forgotBox" data-label="Recovery" style="display:none;">
+    <form id="forgotForm">
+      <label class="field" for="fg-user">Username</label>
+      <input type="text" id="fg-user" name="username" required>
+      <button type="submit">Request Reset Token</button>
+    </form>
+    <p class="status" id="forgotMsg"></p>
+
+    <hr class="rule">
+
+    <form id="resetForm">
+      <label class="field" for="rs-user">Username</label>
+      <input type="text" id="rs-user" name="username" required>
+      <label class="field" for="rs-token">Reset Token</label>
+      <input type="text" id="rs-token" name="token" required>
+      <label class="field" for="rs-pass">New Password</label>
+      <input type="password" id="rs-pass" name="newPassword" required>
+      <button type="submit">Apply Reset</button>
+    </form>
+    <p class="status" id="resetMsg"></p>
+  </div>
+
+</div>
+<script>
+async function postJson(url, body) {
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  const data = await res.json().catch(() => ({}));
+  return { ok: res.ok, data };
+}
+
+function showMsg(el, text, ok) {
+  el.textContent = text;
+  el.className = 'status ' + (ok ? 'ok' : 'err');
+}
+
+document.getElementById('showForgot').addEventListener('click', () => {
+  const box = document.getElementById('forgotBox');
+  box.style.display = box.style.display === 'none' ? 'block' : 'none';
+});
+
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const { ok, data } = await postJson('/login', { username: f.get('username'), password: f.get('password') });
+  const el = document.getElementById('loginMsg');
+  if (ok) {
+    showMsg(el, 'Logged in, redirecting...', true);
+    window.location.href = '/notes.html';
+  } else {
+    showMsg(el, data.error || 'Login failed', false);
+  }
+});
+
+document.getElementById('registerForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const { ok, data } = await postJson('/register', { username: f.get('username'), password: f.get('password') });
+  showMsg(document.getElementById('registerMsg'), ok ? 'Account created, you can log in now.' : (data.error || 'Registration failed'), ok);
+});
+
+document.getElementById('forgotForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const { ok, data } = await postJson('/forgot-password', { username: f.get('username') });
+  showMsg(document.getElementById('forgotMsg'), ok ? data.message : (data.error || 'Request failed'), ok);
+});
+
+document.getElementById('resetForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const { ok, data } = await postJson('/reset-password', {
+    username: f.get('username'),
+    token: f.get('token'),
+    newPassword: f.get('newPassword'),
+  });
+  showMsg(document.getElementById('resetMsg'), ok ? data.message : (data.error || 'Reset failed'), ok);
+});
+</script>
+</body>
+</html>

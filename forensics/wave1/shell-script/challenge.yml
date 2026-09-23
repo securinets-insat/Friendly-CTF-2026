@@ -1,0 +1,25 @@
+name: "Shell Script"
+author: "securinets"
+category: "Forensics"
+description: |-
+  It's called `Flag.pdf`. It is not a PDF. Run `file` on everything.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{sh4r_1s_4_sh3ll_4rch1v3}"
+
+tags:
+  - forensics
+  - file types
+
+files:
+  - attachments/Flag.pdf
+
+version: "0.1"

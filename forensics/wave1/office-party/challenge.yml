@@ -1,0 +1,25 @@
+name: "Office Party"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A boring quarterly report. The body says nothing. The metadata says everything.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{d0cx_1s_4_z1p_0f_xml}"
+
+tags:
+  - forensics
+  - document forensics
+
+files:
+  - attachments/report.docx
+
+version: "0.1"

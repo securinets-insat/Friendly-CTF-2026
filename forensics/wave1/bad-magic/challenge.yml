@@ -1,0 +1,25 @@
+name: "Bad Magic"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A recovered photo won't open — the viewer just errors out. The first few bytes took damage. Put them back.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{f1x_th3_m4g1c_by73s}"
+
+tags:
+  - forensics
+  - file repair
+
+files:
+  - attachments/photo.png
+
+version: "0.1"

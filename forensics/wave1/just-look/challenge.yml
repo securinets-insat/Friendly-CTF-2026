@@ -1,0 +1,26 @@
+name: "Just Look"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A chunk of memory was pulled from a suspicious process. The operator left something readable in there — the analyst just needs to look at the strings.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{str1ngs_f1nd_th3_s3cr3t}"
+
+tags:
+  - forensics
+  - misc
+  - intro
+
+files:
+  - attachments/agent.dump
+
+version: "0.1"

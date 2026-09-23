@@ -1,0 +1,25 @@
+name: "Scan Me"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A QR code, colours inverted. Free points.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{qr_c0d3s_4r3_fr33_p01nts}"
+
+tags:
+  - forensics
+  - misc
+
+files:
+  - attachments/scan_me.png
+
+version: "0.1"

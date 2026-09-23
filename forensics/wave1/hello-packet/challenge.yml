@@ -1,0 +1,25 @@
+name: "Hello Packet"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A tiny capture from an internal box. One request wasn't over HTTPS.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{cl34rt3xt_http_l34ks_1t}"
+
+tags:
+  - forensics
+  - network
+
+files:
+  - attachments/capture.pcap
+
+version: "0.1"

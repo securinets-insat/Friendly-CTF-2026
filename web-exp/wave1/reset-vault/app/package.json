@@ -1,0 +1,17 @@
+{
+  "name": "reset-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reset Vault - Securinets CTF web challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "mongodb": "7.6.0",
+    "bcryptjs": "3.0.3",
+    "cookie-parser": "1.4.7",
+    "seedrandom": "3.0.5"
+  }
+}

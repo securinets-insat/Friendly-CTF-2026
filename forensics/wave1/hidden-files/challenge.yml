@@ -1,0 +1,25 @@
+name: "Hidden Files"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A backup of someone's home directory. They hid the good stuff the classic way: a dot.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{d0tf1l3s_h1d3_1n_pl41n_s1ght}"
+
+tags:
+  - forensics
+  - linux
+
+files:
+  - attachments/home_backup.tar.gz
+
+version: "0.1"

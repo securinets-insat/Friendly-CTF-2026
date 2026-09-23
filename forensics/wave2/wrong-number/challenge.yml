@@ -1,0 +1,28 @@
+name: "Wrong Number"
+author: "securinets"
+category: "Forensics"
+description: |-
+  An endpoint on our network kept making DNS lookups for a domain nobody recognises,
+  all night. The traffic was captured. Marketing swears it's just a CDN.
+
+
+  Figure out what actually left the network.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 700
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{dns_qu3r13s_l34k_by73s}"
+
+tags:
+  - forensics
+
+files:
+  - attachments/dns.pcap
+
+version: "0.1"

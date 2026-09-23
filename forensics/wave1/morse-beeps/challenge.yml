@@ -1,0 +1,25 @@
+name: "Morse Beeps"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A recording of steady beeps. Short and long. You know this one.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{D0TD4SHM0RS3C0D3}"
+
+tags:
+  - forensics
+  - audio
+
+files:
+  - attachments/transmission.wav
+
+version: "0.1"

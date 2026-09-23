@@ -1,0 +1,996 @@
+{
+ "value": [
+  {
+   "id": "7f8821004-sess",
+   "authTimeMs": 1560478447442,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.44.19",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "7f8834127-sess",
+   "authTimeMs": 1560479133110,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "45.83.220.14",
+   "location": {
+    "city": "Amsterdam",
+    "countryOrRegion": "NL"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "91581505-sess",
+   "authTimeMs": 1560493558000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.47.23",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "84954429-sess",
+   "authTimeMs": 1560494023000,
+   "userPrincipalName": "achroui@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.31.135",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "60435453-sess",
+   "authTimeMs": 1560494774000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.32.220",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "52592128-sess",
+   "authTimeMs": 1560495937000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.31.10",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "33300512-sess",
+   "authTimeMs": 1560496037000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.30.118",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "51137792-sess",
+   "authTimeMs": 1560496362000,
+   "userPrincipalName": "dhamdi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.22.201",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "27234682-sess",
+   "authTimeMs": 1560496545000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.43.117",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "20940515-sess",
+   "authTimeMs": 1560497295000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.39.72",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "41887830-sess",
+   "authTimeMs": 1560498702000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.13.189",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "61869650-sess",
+   "authTimeMs": 1560500533000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.23.212",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "81293536-sess",
+   "authTimeMs": 1560501199000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.30.88",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "62502152-sess",
+   "authTimeMs": 1560501220000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.49.198",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "29255407-sess",
+   "authTimeMs": 1560501360000,
+   "userPrincipalName": "achroui@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.4.173",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "89108031-sess",
+   "authTimeMs": 1560502866000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.53.41",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "58924733-sess",
+   "authTimeMs": 1560503637000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.13.60",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "54240937-sess",
+   "authTimeMs": 1560503805000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.3.173",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "24277474-sess",
+   "authTimeMs": 1560505560000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.4.176",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "78961253-sess",
+   "authTimeMs": 1560505836000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.49.27",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "54750980-sess",
+   "authTimeMs": 1560508909000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.51.234",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "91200388-sess",
+   "authTimeMs": 1560509522000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.16.133",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "40066746-sess",
+   "authTimeMs": 1560510574000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.14.98",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "85505188-sess",
+   "authTimeMs": 1560511308000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.54.61",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "70518122-sess",
+   "authTimeMs": 1560511608000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.40.89",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "87195752-sess",
+   "authTimeMs": 1560512552000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.38.227",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "88085503-sess",
+   "authTimeMs": 1560513109000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.54.129",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "16289636-sess",
+   "authTimeMs": 1560513462000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.30.5",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "17636279-sess",
+   "authTimeMs": 1560514589000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.23.191",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "97800007-sess",
+   "authTimeMs": 1560517422000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.8.137",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "12478895-sess",
+   "authTimeMs": 1560517593000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.33.178",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "80830685-sess",
+   "authTimeMs": 1560517616000,
+   "userPrincipalName": "lzribi@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.6.107",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "26201349-sess",
+   "authTimeMs": 1560517774000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.20.207",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "68974301-sess",
+   "authTimeMs": 1560519612000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.59.204",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "19352843-sess",
+   "authTimeMs": 1560520435000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.15.171",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "38761585-sess",
+   "authTimeMs": 1560521694000,
+   "userPrincipalName": "achroui@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.44.116",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "92804573-sess",
+   "authTimeMs": 1560521892000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.10.134",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "85406969-sess",
+   "authTimeMs": 1560522799000,
+   "userPrincipalName": "achroui@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.54.233",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "14922403-sess",
+   "authTimeMs": 1560523278000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.22.204",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "46306872-sess",
+   "authTimeMs": 1560524739000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.47.33",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "92907323-sess",
+   "authTimeMs": 1560525533000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.31.93",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "76299436-sess",
+   "authTimeMs": 1560525593000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.27.254",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "71737686-sess",
+   "authTimeMs": 1560527005000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.17.37",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "64127224-sess",
+   "authTimeMs": 1560528479000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.47.159",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "87721324-sess",
+   "authTimeMs": 1560529291000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.33.238",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "42461816-sess",
+   "authTimeMs": 1560529688000,
+   "userPrincipalName": "achroui@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.35.101",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "16387447-sess",
+   "authTimeMs": 1560530402000,
+   "userPrincipalName": "achroui@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.30.92",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "79785303-sess",
+   "authTimeMs": 1560530825000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.35.122",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "41768054-sess",
+   "authTimeMs": 1560532072000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Office 365",
+   "ipAddress": "196.203.39.217",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "55994547-sess",
+   "authTimeMs": 1560533697000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.31.195",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "52638538-sess",
+   "authTimeMs": 1560534253000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.52.43",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "84486696-sess",
+   "authTimeMs": 1560536081000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.26.44",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "13718605-sess",
+   "authTimeMs": 1560536575000,
+   "userPrincipalName": "bsassi@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.10.239",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "77657094-sess",
+   "authTimeMs": 1560536948000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.36.23",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "92783969-sess",
+   "authTimeMs": 1560538879000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.43.68",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "48741811-sess",
+   "authTimeMs": 1560540285000,
+   "userPrincipalName": "rjaidi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.42.246",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "86606635-sess",
+   "authTimeMs": 1560540420000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "Azure Portal",
+   "ipAddress": "196.203.41.43",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "97169240-sess",
+   "authTimeMs": 1560544430000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.15.90",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "44041798-sess",
+   "authTimeMs": 1560544581000,
+   "userPrincipalName": "fkhelifi@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.7.98",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "82912523-sess",
+   "authTimeMs": 1560544974000,
+   "userPrincipalName": "nbouaziz@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.27.252",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "78864231-sess",
+   "authTimeMs": 1560545033000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "Outlook Web",
+   "ipAddress": "196.203.40.86",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  },
+  {
+   "id": "92855822-sess",
+   "authTimeMs": 1560545973000,
+   "userPrincipalName": "mkedri@agilogix.tn",
+   "appDisplayName": "AWS SSO",
+   "ipAddress": "196.203.26.152",
+   "location": {
+    "city": "Tunis",
+    "countryOrRegion": "TN"
+   },
+   "status": {
+    "errorCode": 0,
+    "failureReason": "Other."
+   },
+   "clientAppUsed": "Browser"
+  }
+ ]
+}

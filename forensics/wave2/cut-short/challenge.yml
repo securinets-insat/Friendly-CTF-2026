@@ -1,0 +1,26 @@
+name: "Cut Short"
+author: "securinets"
+category: "Forensics"
+description: |-
+  A diagnostic screenshot that looks harmlessly cropped. The bottom was chopped off — but only in the header.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{r41s3_th3_1hdr_h31ght}"
+
+tags:
+  - forensics
+  - stego
+  - file structure
+
+files:
+  - attachments/diagnostic.png
+
+version: "0.1"

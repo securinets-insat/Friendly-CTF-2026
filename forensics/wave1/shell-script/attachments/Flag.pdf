@@ -1,0 +1,9 @@
+#!/bin/sh
+# This is a shell archive (produced by shar-like packer).
+# Run it with /bin/sh to unpack the enclosed file(s).
+echo 'x - extracting secret.gz (gzip)'
+base64 -d > secret.gz <<'SHAR_EOF'
+H4sIAAAAAAAC/wtOTS4tysxLLSmuLs4wKYo3LI43iS/OMM7JiTcpSs4wLDOu5QIAFxyf+iQAAAA=
+SHAR_EOF
+echo 'x - done. now: gunzip secret.gz && cat secret'
+exit 0

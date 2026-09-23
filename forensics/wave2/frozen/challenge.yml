@@ -1,0 +1,32 @@
+name: "Frozen"
+author: "securinets"
+category: "Forensics"
+description: |-
+  We seized a "license activator" that ships with a cracked internal tool. It won't cough up
+  anything without the right license password and activation token — and the two aren't written
+  anywhere obvious.
+
+  It's a Python program that's been **frozen into an executable**. Thaw it out, read what it
+  actually does, and recover the secret it's guarding.
+
+  **File:** `activator.exe`
+
+type: dynamic
+extra:
+  function: linear
+  initial: 1000
+  decay: 5
+  minimum: 300
+connection_info: 
+
+flags:
+  - "Securinets{fr0z3n_pyc_st1ll_t4lks}"
+
+tags:
+  - forensics
+  - pyinstaller)
+
+files:
+  - attachments/activator.exe
+
+version: "0.1"

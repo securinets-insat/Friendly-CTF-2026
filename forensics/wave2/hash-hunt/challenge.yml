@@ -1,0 +1,26 @@
+name: "Hash Hunt"
+author: "securinets"
+category: "Forensics"
+description: |-
+  Three hundred near-identical notes. `TARGET_HASH.txt` tells you the SHA-256 of the one that matters. Find it.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{h4sh_m4tch3s_th3_f1l3}"
+
+tags:
+  - forensics
+  - misc
+
+files:
+  - attachments/samples.zip
+  - attachments/TARGET_HASH.txt
+
+version: "0.1"

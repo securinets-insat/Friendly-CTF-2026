@@ -1,0 +1,25 @@
+name: "Black Marker"
+author: "securinets"
+category: "Forensics"
+description: |-
+  An internal memo came out of discovery with the sensitive line blacked out. The redaction was done by drawing a rectangle. That is not how redaction works.
+
+type: dynamic
+extra:
+  function: linear
+  initial: 500
+  decay: 5
+  minimum: 200
+connection_info: 
+
+flags:
+  - "Securinets{r3d4ct10n_1s_n0t_d3l3t10n}"
+
+tags:
+  - forensics
+  - document forensics
+
+files:
+  - attachments/memo.pdf
+
+version: "0.1"

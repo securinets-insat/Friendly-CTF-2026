@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reset Vault — Notes</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap wide">
+
+  <div class="masthead" style="justify-content: space-between;">
+    <div style="display:flex; align-items:center; gap:14px;">
+      <div class="dial"></div>
+      <div>
+        <h1>Deposit Box</h1>
+        <span class="sub">Your Notes</span>
+      </div>
+    </div>
+    <button class="ghost" id="logoutBtn">Log out</button>
+  </div>
+
+  <div class="panel" data-label="New Entry">
+    <form id="createForm">
+      <label class="field" for="content">Note</label>
+      <textarea id="content" name="content" required></textarea>
+      <label class="checkline"><input type="checkbox" name="encrypt"> Seal this entry (encrypt)</label>
+      <button type="submit">File Note</button>
+    </form>
+    <p class="status" id="createMsg"></p>
+  </div>
+
+  <div id="notesList"></div>
+
+</div>
+<script>
+async function api(url, options) {
+  const res = await fetch(url, options);
+  if (res.status === 401) {
+    window.location.href = '/login.html';
+    return null;
+  }
+  const data = await res.json().catch(() => ({}));
+  return { ok: res.ok, data };
+}
+
+function renderNotes(list) {
+  const el = document.getElementById('notesList');
+  if (!list.length) {
+    el.innerHTML = '<p class="empty">The box is empty.</p>';
+    return;
+  }
+  el.innerHTML = list.map((n) => {
+    const when = new Date(n.createdAt).toLocaleString();
+    const tag = n.encrypted ? '<span class="tag">sealed</span>' : '';
+    return `<div class="entry${n.encrypted ? ' locked' : ''}"><div class="meta">${when}${tag}</div><pre>${escapeHtml(n.content)}</pre></div>`;
+  }).join('');
+}
+
+function escapeHtml(s) {
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+async function loadNotes() {
+  const result = await api('/notes');
+  if (!result) return;
+  if (result.ok) renderNotes(result.data);
+}
+
+document.getElementById('createForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const result = await api('/notes', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content: f.get('content'), encrypt: f.get('encrypt') === 'on' }),
+  });
+  if (!result) return;
+  const msgEl = document.getElementById('createMsg');
+  msgEl.textContent = result.ok ? 'Note saved.' : (result.data.error || 'Failed to save note');
+  msgEl.className = 'status ' + (result.ok ? 'ok' : 'err');
+  if (result.ok) {
+    e.target.reset();
+    loadNotes();
+  }
+});
+
+document.getElementById('logoutBtn').addEventListener('click', async () => {
+  await fetch('/logout', { method: 'POST' });
+  window.location.href = '/login.html';
+});
+
+loadNotes();
+</script>
+</body>
+</html>

@@ -6,6 +6,8 @@ description: |-
 
   The chase has changed, the road has learned, and yesterday's answer will not save you twice.
 
+  Windows x64. Unzip and keep both files together, then run the exe. Read `NOTICE.txt` before you start.
+
 type: dynamic
 extra:
   function: linear
@@ -20,5 +22,10 @@ flags:
 
 files:
   - attachments/WaterRun-Revenge-windows-x64.zip
+  - attachments/NOTICE.txt
+
+tags:
+  - Windows
+  - Game Hacking
 
 version: "0.1"

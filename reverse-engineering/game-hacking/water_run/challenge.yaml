@@ -4,6 +4,8 @@ category: "Reverse Engineering"
 description: |-
   When the road says the run is over, decide whether you agree.
 
+  Windows x64. Unzip and keep both files together, then run the exe. Read `NOTICE.txt` before you start.
+
 type: dynamic
 extra:
   function: linear
@@ -18,5 +20,10 @@ flags:
 
 files:
   - attachments/WaterRun-windows-x64.zip
+  - attachments/NOTICE.txt
+
+tags:
+  - Windows
+  - Game Hacking
 
 version: "0.1"

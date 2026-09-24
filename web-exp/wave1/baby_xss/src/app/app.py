@@ -127,7 +127,10 @@ def report_to_admin():
         flash("Report not found ", "error")
         return redirect('/reports')
     try:
-        requests.post(BOT_URL, data={'report_id': report_id}, timeout=19)
+        # The bot has a bounded 10-second navigation timeout plus a short XSS
+        # execution window. Keep the caller's read timeout comfortably above it.
+        response = requests.post(BOT_URL, data={'report_id': report_id}, timeout=(3, 35))
+        response.raise_for_status()
         flash("Report sent to admin for review", "success")
     except requests.exceptions.RequestException as e:
         flash("Failed to send report to admin", "error")
@@ -135,4 +138,3 @@ def report_to_admin():
     return redirect('/reports')
 
 init_db()
-

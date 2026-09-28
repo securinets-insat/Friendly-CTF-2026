@@ -1,6 +1,6 @@
 import socket
 
-host = "localhost"
+host = "40.66.40.8"
 port = 5018
 
 path = b"/admin" + bytes([0xA0])   # the literal raw byte, not percent-encoded

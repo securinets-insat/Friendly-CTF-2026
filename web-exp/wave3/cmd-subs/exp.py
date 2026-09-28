@@ -1,9 +1,9 @@
 import requests
 
-target="http://localhost:5013/vault"
+target="https://vault.web1.friendly-ctf.securinets.tn/vault"
 
 chars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789{}_"
-flag=""
+flag="Securinets{"
 i=True
 while i:
     for c in chars:

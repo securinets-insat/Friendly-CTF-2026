@@ -71,8 +71,7 @@ AUTH_401 = {"error": "Unauthorized"}
 
 # RT-02a: the app used to ship sha256(flag) for all 16 challenges and compare
 # locally (ProgressStore.submitFlag) -- a free offline oracle for every guess
-# against every challenge, including the ones still being hardened per
-# docs/HARDENING-PLAN-2026-09-15.md. That hash registry is gone from the app;
+# against every challenge. That hash registry is gone from the app;
 # this table is the only place a submitted flag is checked against now. It
 # exists so the in-app "captured" UI (debrief unlock, chained-challenge
 # unlock) can confirm a real flag -- CTFd remains the actual scoreboard.
@@ -96,7 +95,7 @@ except (OSError, ValueError, KeyError) as exc:
 
 VERIFY_400 = {"error": "id and flag required"}
 
-# Hardening plan step 1 (docs/HARDENING-PLAN-2026-09-15.md): a per-session
+# A per-session
 # value minted when a challenge screen starts, never present in the APK.
 # Single Flask process, single dict -- matches the existing style
 # (SEED_USERS, CHALLENGE_FLAGS are plain dicts too). A live event runs this
@@ -461,8 +460,7 @@ def frontdoor_start():
 
     Designer mode (CTF_SIG_DISABLED=1): returns a fixed password instead of
     a random one, so a tester gets the same reproducible state on every
-    call instead of a different admin password per session -- standing
-    constraint, see CLAUDE.md. Deliberately reuses CTF_SIG_DISABLED rather
+    call instead of a different admin password per session. Deliberately reuses CTF_SIG_DISABLED rather
     than a new flag; this backend only ever has the one designer switch.
 
     Success 200: {"session_id": str, "admin_password": str}
@@ -692,7 +690,7 @@ def clock_start():
     Mints a session and the five targets for this round.
 
     Designer mode (CTF_SIG_DISABLED=1): the same five every call, so a
-    tester gets reproducible state -- standing constraint, see CLAUDE.md.
+    tester gets reproducible state.
 
     Success 200: {"session": str, "targets": [str x5]}
     """

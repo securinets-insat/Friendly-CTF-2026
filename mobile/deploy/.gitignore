@@ -1,1 +1,4 @@
 flags.json
+
+# TLS private key: generate locally (see README), never commit
+certs/key.pem

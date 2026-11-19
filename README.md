@@ -62,16 +62,3 @@ Two deployments need local files that are not in the repository:
 - **Malware case** (`reverse-engineering/malware-analysis/sample/deploy`). Copy `.env.example` to `.env`, set `CASE01_FLAG`, and run `docker compose up -d --build`. It serves the question set on port 4001. `stage/` is a separate service with its own compose file and `.env.example`.
 
 The remote crypto challenges and Buvette INSAT are covered by `crypto/deploy/DEPLOY.md`.
-
-## Credits
-
-Challenges were written by the Securinets INSAT team:
-
-- Khalil Ammar (fadigaa): the mobile track, the reverse-engineering ladder (Doorman, Night Shift, Broken Lock, Paper Trail, Dead Air), Straight Key, Water Run and Water Run: Revenge, and the malware case
-- r3t0x (git: Amdouni Ghaith): misc and most of pwn; Taz: part of pwn
-- Jed Jmili: crypto and the XOR Me, Welcome, Revenge and Buvette INSAT reverse-engineering challenges
-- L-BOH (git: baha0x13): web
-- TAD (git: Tayachi Ahmed and gitNoN33d): OSINT
-- forensics: committed by Mohamed Aziz Haddadi, author field `securinets`
-
-Attributions come from the `author` field in each challenge definition and from the git history; if one is wrong, please correct it with a pull request.
